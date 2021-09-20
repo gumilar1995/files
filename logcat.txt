@@ -1,0 +1,680 @@
+2021-09-20 23:11:34.014 27755-27755/? D/BoundBrokerSvc: onUnbind: Intent { act=com.google.android.gms.clearcut.bootcount.service.START cmp=com.google.android.gms/.chimera.PersistentBoundBrokerService }
+2021-09-20 23:11:34.971 587-587/? I/hwservicemanager: getTransport: Cannot find entry vendor.qti.hardware.servicetracker@1.0::IServicetracker/default in either framework or device manifest.
+2021-09-20 23:11:35.023 587-587/? I/chatty: uid=1000(system) hwservicemanage identical 3 lines
+2021-09-20 23:11:35.027 587-587/? I/hwservicemanager: getTransport: Cannot find entry vendor.qti.hardware.servicetracker@1.0::IServicetracker/default in either framework or device manifest.
+2021-09-20 23:11:35.030 27597-27597/? D/BoundBrokerSvc: onUnbind: Intent { act=com.google.android.gms.auth.cryptauth.cryptauthservice.START cmp=com.google.android.gms/.chimera.GmsBoundBrokerService }
+2021-09-20 23:11:35.030 27597-27597/? D/BoundBrokerSvc: onUnbind: Intent { act=com.google.android.gms.cast.firstparty.START cmp=com.google.android.gms/.chimera.GmsBoundBrokerService }
+2021-09-20 23:11:35.575 11178-11178/? I/subsystem_ramdump: Usage:./system/bin/subsystem_ramdump [arg1] [arg2] [arg3]
+2021-09-20 23:11:35.575 11178-11178/? I/subsystem_ramdump: [arg1]: (1/2) Ramdump location: 1: eMMC: /data/vendor/ramdump or 2: SD card: /sdcard/ramdump
+2021-09-20 23:11:35.575 11178-11178/? I/subsystem_ramdump: [arg2]: (1/0) 1: Enable RPM log / 0: Disable RPM log
+2021-09-20 23:11:35.575 11178-11178/? I/subsystem_ramdump: [arg3]: (1/0) 1: Enable qdss ramdump / 0: Disable qdss ramdump
+2021-09-20 23:11:35.575 11178-11178/? I/subsystem_ramdump:  Using default ramdump location 1: eMMC: /data/vendor/ramdump
+2021-09-20 23:11:35.575 11178-11178/? I/subsystem_ramdump:  Using default 0: Disable RPM log
+2021-09-20 23:11:35.575 11178-11178/? I/subsystem_ramdump:  Using default 0: Disable qdss ramdump
+2021-09-20 23:11:35.565 11178-11178/? W/subsystem_ramdu: type=1400 audit(0.0:460854): avc: denied { read } for name="enable_ramdumps" dev="sysfs" ino=25551 scontext=u:r:vendor_subsystem_ramdump:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=0
+2021-09-20 23:11:35.575 11178-11178/? E/subsystem_ramdump: Unable to open /sys/module/subsystem_restart/parameters/enable_ramdumps
+2021-09-20 23:11:35.877 587-587/? I/hwservicemanager: getTransport: Cannot find entry vendor.qti.hardware.servicetracker@1.0::IServicetracker/default in either framework or device manifest.
+    
+    --------- beginning of system
+2021-09-20 23:11:35.901 1960-2340/? I/ActivityManager: Killing 8247:com.stroworld.stroapps/u0a558 (adj 965): empty #13
+2021-09-20 23:11:35.883 587-587/? I/hwservicemanager: getTransport: Cannot find entry vendor.qti.hardware.servicetracker@1.0::IServicetracker/default in either framework or device manifest.
+2021-09-20 23:11:35.909 587-587/? I/hwservicemanager: getTransport: Cannot find entry vendor.qti.hardware.iop@2.0::IIop/default in either framework or device manifest.
+2021-09-20 23:11:35.950 587-587/? I/hwservicemanager: getTransport: Cannot find entry vendor.qti.hardware.iop@2.0::IIop/default in either framework or device manifest.
+2021-09-20 23:11:35.951 1072-1072/? I/Zygote: Process 8247 exited due to signal 9 (Killed)
+2021-09-20 23:11:35.952 587-587/? I/hwservicemanager: getTransport: Cannot find entry vendor.qti.hardware.servicetracker@1.0::IServicetracker/default in either framework or device manifest.
+2021-09-20 23:11:35.953 587-587/? I/hwservicemanager: getTransport: Cannot find entry vendor.qti.hardware.servicetracker@1.0::IServicetracker/default in either framework or device manifest.
+2021-09-20 23:11:35.954 1960-1989/? I/libprocessgroup: Successfully killed process cgroup uid 10558 pid 8247 in 46ms
+2021-09-20 23:11:35.956 1960-2096/? I/MiuiNetworkPolicy: removeUidState uid = 10558
+2021-09-20 23:11:35.957 20436-20436/? W/adbd: timeout expired while flushing socket, closing
+2021-09-20 23:11:37.449 587-587/? I/hwservicemanager: getTransport: Cannot find entry vendor.qti.hardware.servicetracker@1.0::IServicetracker/default in either framework or device manifest.
+2021-09-20 23:11:37.454 1960-2096/? I/MiuiNetworkPolicy: updateUidState uid = 10558, uidState = 20
+2021-09-20 23:11:37.468 24916-24916/? D/SignalClusterView: updateMobileTypeImage  0
+2021-09-20 23:11:37.469 24916-24916/? I/chatty: uid=1000(system) com.android.systemui identical 3 lines
+2021-09-20 23:11:37.476 24916-24916/? D/SignalClusterView: updateMobileTypeImage  0
+2021-09-20 23:11:37.476 1072-1072/? D/Zygote: Forked child process 11180
+2021-09-20 23:11:37.477 24916-24916/? D/SignalClusterView: updateMobileTypeImage  0
+2021-09-20 23:11:37.479 1960-1988/? D/Boost: hostingType=broadcast, hostingName={com.stroworld.stroapps/com.onesignal.FCMBroadcastReceiver}, callerPackage=com.google.android.gms, isSystem=true, isBoostNeeded=false.
+2021-09-20 23:11:37.479 24916-24916/? D/SignalClusterView: updateMobileTypeImage  0
+2021-09-20 23:11:37.480 1108-1108/? D/OemNetd: setPidForPackage: packageName=com.stroworld.stroapps, pid=11180, pid=10558
+2021-09-20 23:11:37.481 1960-1988/? I/ActivityManager: Start proc 11180:com.stroworld.stroapps/u0a558 for broadcast {com.stroworld.stroapps/com.onesignal.FCMBroadcastReceiver} caller=com.google.android.gms
+2021-09-20 23:11:37.499 11180-11180/? E/oworld.stroapp: Not starting debugger since process cannot load the jdwp agent.
+2021-09-20 23:11:37.516 1960-3524/? D/CompatibilityInfo: mCompatibilityFlags - 0
+2021-09-20 23:11:37.516 1960-3524/? D/CompatibilityInfo: applicationDensity - 440
+2021-09-20 23:11:37.516 1960-3524/? D/CompatibilityInfo: applicationScale - 1.0
+2021-09-20 23:11:37.522 1960-3524/? D/CompatibilityInfo: mCompatibilityFlags - 0
+2021-09-20 23:11:37.522 1960-3524/? D/CompatibilityInfo: applicationDensity - 440
+2021-09-20 23:11:37.522 1960-3524/? D/CompatibilityInfo: applicationScale - 1.0
+2021-09-20 23:11:37.523 1960-2096/? I/MiuiNetworkPolicy: updateUidState uid = 10558, uidState = 12
+2021-09-20 23:11:37.562 11180-11180/? I/Perf: Connecting to perf service.
+2021-09-20 23:11:37.590 11180-11180/? W/ComponentDiscovery: Class com.google.firebase.dynamicloading.DynamicLoadingRegistrar is not an found.
+2021-09-20 23:11:37.603 11180-11180/? I/FirebaseApp: Device unlocked: initializing all Firebase APIs for app [DEFAULT]
+2021-09-20 23:11:37.629 11180-11180/? I/FirebaseInitProvider: FirebaseApp initialization successful
+2021-09-20 23:11:37.643 11180-11180/? W/com.facebook.UserSettingsManager: Please set a value for AutoLogAppEventsEnabled. Set the flag to TRUE if you want to collect app install, app launch and in-app purchase events automatically. To request user consent before collecting data, set the flag value to FALSE, then change to TRUE once user consent is received. Learn more: https://developers.facebook.com/docs/app-events/getting-started-app-events-android#disable-auto-events.
+2021-09-20 23:11:37.643 11180-11180/? W/com.facebook.UserSettingsManager: You haven't set a value for AdvertiserIDCollectionEnabled. Set the flag to TRUE if you want to collect Advertiser ID for better advertising and analytics results. To request user consent before collecting data, set the flag value to FALSE, then change to TRUE once user consent is received. Learn more: https://developers.facebook.com/docs/app-events/getting-started-app-events-android#disable-auto-events.
+2021-09-20 23:11:37.645 11180-11206/? W/oworld.stroapp: Unsupported class loader
+2021-09-20 23:11:37.649 11180-11206/? W/oworld.stroapp: Skipping duplicate class check due to unsupported classloader
+2021-09-20 23:11:37.652 11180-11206/? I/DynamiteModule: Considering local module com.google.android.gms.measurement.dynamite:20 and remote module com.google.android.gms.measurement.dynamite:52
+2021-09-20 23:11:37.653 11180-11206/? I/DynamiteModule: Selected remote version of com.google.android.gms.measurement.dynamite, version >= 52
+2021-09-20 23:11:37.653 11180-11206/? V/DynamiteModule: Dynamite loader version >= 2, using loadModule2NoCrashUtils
+2021-09-20 23:11:37.680 11180-11206/? W/System: ClassLoader referenced unknown path: 
+2021-09-20 23:11:37.689 11180-11211/? D/NetworkSecurityConfig: No Network Security Config specified, using platform default
+2021-09-20 23:11:37.691 11180-11211/? I/DpmTcmClient: RegisterTcmMonitor from: $Proxy0
+2021-09-20 23:11:37.704 11180-11180/? I/FeatureParser: can't find lavender.xml in assets/device_features/,it may be in /system/etc/device_features
+2021-09-20 23:11:37.705 1108-11226/? E/ResolverController: No valid NAT64 prefix (107, <unspecified>/0)
+2021-09-20 23:11:37.705 1108-11225/? E/ResolverController: No valid NAT64 prefix (107, <unspecified>/0)
+2021-09-20 23:11:37.709 1108-11227/? E/ResolverController: No valid NAT64 prefix (107, <unspecified>/0)
+2021-09-20 23:11:37.709 11180-11180/? E/libc: Access denied finding property "ro.vendor.df.effect.conflict"
+2021-09-20 23:11:37.695 11180-11180/? W/oworld.stroapps: type=1400 audit(0.0:460855): avc: denied { read } for name="u:object_r:vendor_displayfeature_prop:s0" dev="tmpfs" ino=16662 scontext=u:r:untrusted_app:s0:c46,c258,c512,c768 tcontext=u:object_r:vendor_displayfeature_prop:s0 tclass=file permissive=0
+2021-09-20 23:11:37.712 587-587/? I/hwservicemanager: getTransport: Cannot find entry vendor.qti.hardware.iop@2.0::IIop/default in either framework or device manifest.
+2021-09-20 23:11:37.712 1109-8874/? E/ANDR-IOP: IIop:: Iop HAL Service is not available.
+2021-09-20 23:11:37.717 11180-11206/? W/oworld.stroapp: ClassLoaderContext type mismatch. expected=PCL, found=DLC (PCL[] | DLC[];PCL[/data/app/com.stroworld.stroapps-DazMtHS1Fnn3_FPNyi_q8w==/base.apk*1972534545])
+2021-09-20 23:11:37.718 11180-11206/? W/oworld.stroapp: Found duplicate classes, falling back to extracting from APK : /data/user_de/0/com.google.android.gms/app_chimera/m/00000074/MeasurementDynamite.apk
+2021-09-20 23:11:37.718 11180-11206/? W/oworld.stroapp: NOTE: This wastes RAM and hurts startup performance.
+2021-09-20 23:11:37.718 11180-11206/? W/oworld.stroapp: Found duplicated class when checking oat files: 'Landroid/support/v4/app/RemoteActionCompatParcelizer;' in /data/user_de/0/com.google.android.gms/app_chimera/m/00000074/MeasurementDynamite.apk and /data/app/com.stroworld.stroapps-DazMtHS1Fnn3_FPNyi_q8w==/base.apk
+2021-09-20 23:11:37.728 11180-11229/? E/Perf: Fail to get file list com.stroworld.stroapps
+2021-09-20 23:11:37.729 11180-11229/? E/Perf: getFolderSize() : Exception_1 = java.lang.NullPointerException: Attempt to get length of null array
+2021-09-20 23:11:37.731 11180-11229/? E/Perf: Fail to get file list oat
+2021-09-20 23:11:37.732 11180-11229/? E/Perf: getFolderSize() : Exception_1 = java.lang.NullPointerException: Attempt to get length of null array
+2021-09-20 23:11:37.773 1960-5416/? D/CompatibilityInfo: mCompatibilityFlags - 0
+2021-09-20 23:11:37.773 1960-5416/? D/CompatibilityInfo: applicationDensity - 440
+2021-09-20 23:11:37.774 1960-5416/? D/CompatibilityInfo: applicationScale - 1.0
+2021-09-20 23:11:37.788 587-587/? I/hwservicemanager: getTransport: Cannot find entry vendor.qti.hardware.servicetracker@1.0::IServicetracker/default in either framework or device manifest.
+2021-09-20 23:11:37.792 1960-5416/? D/CompatibilityInfo: mCompatibilityFlags - 0
+2021-09-20 23:11:37.792 1960-5416/? D/CompatibilityInfo: applicationDensity - 440
+2021-09-20 23:11:37.792 1960-5416/? D/CompatibilityInfo: applicationScale - 1.0
+2021-09-20 23:11:37.793 587-587/? I/hwservicemanager: getTransport: Cannot find entry vendor.qti.hardware.servicetracker@1.0::IServicetracker/default in either framework or device manifest.
+2021-09-20 23:11:37.798 1108-11242/? E/ResolverController: No valid NAT64 prefix (107, <unspecified>/0)
+2021-09-20 23:11:37.809 587-587/? I/hwservicemanager: getTransport: Cannot find entry vendor.qti.hardware.servicetracker@1.0::IServicetracker/default in either framework or device manifest.
+2021-09-20 23:11:37.811 587-587/? I/chatty: uid=1000(system) hwservicemanage identical 1 line
+2021-09-20 23:11:37.815 587-587/? I/hwservicemanager: getTransport: Cannot find entry vendor.qti.hardware.servicetracker@1.0::IServicetracker/default in either framework or device manifest.
+2021-09-20 23:11:37.817 1960-5416/? D/CompatibilityInfo: mCompatibilityFlags - 0
+2021-09-20 23:11:37.817 1960-5416/? D/CompatibilityInfo: applicationDensity - 440
+2021-09-20 23:11:37.817 1960-5416/? D/CompatibilityInfo: applicationScale - 1.0
+2021-09-20 23:11:37.818 587-587/? I/hwservicemanager: getTransport: Cannot find entry vendor.qti.hardware.servicetracker@1.0::IServicetracker/default in either framework or device manifest.
+2021-09-20 23:11:37.842 1960-4668/? I/ActivityManager: Killing 8546:com.android.chrome:privileged_process0/u0a186 (adj 965): empty #13
+2021-09-20 23:11:37.846 587-587/? I/hwservicemanager: getTransport: Cannot find entry vendor.qti.hardware.iop@2.0::IIop/default in either framework or device manifest.
+2021-09-20 23:11:37.851 1960-2096/? I/MiuiNetworkPolicy: updateUidState uid = 10558, uidState = 20
+2021-09-20 23:11:37.853 587-587/? I/hwservicemanager: getTransport: Cannot find entry vendor.qti.hardware.servicetracker@1.0::IServicetracker/default in either framework or device manifest.
+2021-09-20 23:11:37.857 1960-5416/? D/CompatibilityInfo: mCompatibilityFlags - 0
+2021-09-20 23:11:37.857 1960-5416/? D/CompatibilityInfo: applicationDensity - 440
+2021-09-20 23:11:37.857 1960-5416/? D/CompatibilityInfo: applicationScale - 1.0
+2021-09-20 23:11:37.858 587-587/? I/hwservicemanager: getTransport: Cannot find entry vendor.qti.hardware.servicetracker@1.0::IServicetracker/default in either framework or device manifest.
+2021-09-20 23:11:37.866 1960-2096/? I/MiuiNetworkPolicy: updateUidState uid = 10558, uidState = 9
+2021-09-20 23:11:37.886 8481-8481/? E/chromium: [ERROR:gpu_process_host.cc(995)] GPU process exited unexpectedly: exit_code=0
+2021-09-20 23:11:37.886 8481-8481/? W/chromium: [WARNING:gpu_process_host.cc(1308)] The GPU process has crashed 1 time(s)
+2021-09-20 23:11:37.887 587-587/? I/hwservicemanager: getTransport: Cannot find entry vendor.qti.hardware.servicetracker@1.0::IServicetracker/default in either framework or device manifest.
+2021-09-20 23:11:37.890 587-587/? I/hwservicemanager: getTransport: Cannot find entry vendor.qti.hardware.iop@2.0::IIop/default in either framework or device manifest.
+2021-09-20 23:11:37.891 1073-1073/? I/Zygote: Process 8546 exited due to signal 9 (Killed)
+2021-09-20 23:11:37.892 587-587/? I/hwservicemanager: getTransport: Cannot find entry vendor.qti.hardware.servicetracker@1.0::IServicetracker/default in either framework or device manifest.
+2021-09-20 23:11:37.893 1960-4668/? W/ActivityManager: Scheduling restart of crashed service com.android.chrome/org.chromium.content.app.PrivilegedProcessService0 in 1000ms
+2021-09-20 23:11:37.894 1960-1989/? I/libprocessgroup: Successfully killed process cgroup uid 10186 pid 8546 in 49ms
+2021-09-20 23:11:37.896 11180-11180/? W/OneSignal: remoteNotificationReceivedHandler not setup, displaying normal OneSignal notification
+2021-09-20 23:11:37.896 587-587/? I/hwservicemanager: getTransport: Cannot find entry vendor.qti.hardware.servicetracker@1.0::IServicetracker/default in either framework or device manifest.
+2021-09-20 23:11:37.897 587-587/? I/hwservicemanager: getTransport: Cannot find entry vendor.qti.hardware.servicetracker@1.0::IServicetracker/default in either framework or device manifest.
+2021-09-20 23:11:37.940 12136-12136/? V/onNotificationPostedCallBack: flags=16
+2021-09-20 23:11:37.942 24916-24916/? D/StatusBar: onNotificationPosted key=0|com.stroworld.stroapps|762270803|null|10558 isUpdate=false
+2021-09-20 23:11:37.955 11180-11236/? I/WM-WorkerWrapper: Worker result SUCCESS for Work [ id=a3841a7e-82e8-4c12-b74f-722db3232343, tags={ com.onesignal.OSNotificationWorkManager$NotificationWorker } ]
+2021-09-20 23:11:37.967 24916-24916/? D/StatusBar: No peeking: unimportant notification: 0|com.stroworld.stroapps|762270803|null|10558
+2021-09-20 23:11:37.979 587-587/? I/hwservicemanager: getTransport: Cannot find entry vendor.qti.hardware.servicetracker@1.0::IServicetracker/default in either framework or device manifest.
+2021-09-20 23:11:37.983 587-587/? I/hwservicemanager: getTransport: Cannot find entry vendor.qti.hardware.servicetracker@1.0::IServicetracker/default in either framework or device manifest.
+2021-09-20 23:11:37.986 1960-2096/? I/MiuiNetworkPolicy: updateUidState uid = 10558, uidState = 11
+2021-09-20 23:11:37.999 1960-2096/? I/MiuiNetworkPolicy: updateUidState uid = 10558, uidState = 20
+2021-09-20 23:11:38.003 11180-11248/? I/FA: App measurement initialized, version: 43008
+2021-09-20 23:11:38.004 11180-11248/? I/FA: To enable debug logging run: adb shell setprop log.tag.FA VERBOSE
+2021-09-20 23:11:38.004 11180-11248/? I/FA: To enable faster debug mode event logging run:
+      adb shell setprop debug.firebase.analytics.app com.stroworld.stroapps
+2021-09-20 23:11:38.062 24916-24916/? D/StatusBar: No peeking: unimportant notification: 0|com.stroworld.stroapps|762270803|null|10558
+2021-09-20 23:11:38.065 587-587/? I/hwservicemanager: getTransport: Cannot find entry vendor.qti.hardware.servicetracker@1.0::IServicetracker/default in either framework or device manifest.
+2021-09-20 23:11:38.067 1960-4668/? D/CompatibilityInfo: mCompatibilityFlags - 0
+2021-09-20 23:11:38.067 1960-4668/? D/CompatibilityInfo: applicationDensity - 440
+2021-09-20 23:11:38.067 1960-4668/? D/CompatibilityInfo: applicationScale - 1.0
+2021-09-20 23:11:38.069 587-587/? I/hwservicemanager: getTransport: Cannot find entry vendor.qti.hardware.servicetracker@1.0::IServicetracker/default in either framework or device manifest.
+2021-09-20 23:11:38.071 27597-27597/? D/BoundBrokerSvc: onBind: Intent { act=com.google.android.gms.measurement.START pkg=com.google.android.gms }
+2021-09-20 23:11:38.071 27597-27597/? D/BoundBrokerSvc: Loading bound service for intent: Intent { act=com.google.android.gms.measurement.START pkg=com.google.android.gms }
+2021-09-20 23:11:38.073 24916-24916/? D/StatusBar: update app badge num: com.stroworld.stroapps/,num=0,isAllowed=false,userId=0
+2021-09-20 23:11:38.074 1960-5416/? W/ActivityManager: Sending non-protected broadcast android.intent.action.APPLICATION_MESSAGE_UPDATE from system 24916:com.android.systemui/1000 pkg com.android.systemui. Callers=
+2021-09-20 23:11:38.074 1960-4668/? I/QuietUtils: type:5, flags:0, cpkg:android
+2021-09-20 23:11:38.075 2469-2624/? I/Launcher.ApplicationsMessage: onReceive false
+2021-09-20 23:11:38.075 2469-2624/? I/Launcher.ApplicationsMessage: update com.stroworld.stroapps/ to null
+2021-09-20 23:11:38.077 1960-4668/? D/zhoumingliang: isinvrtest==false
+2021-09-20 23:11:38.112 587-587/? I/hwservicemanager: getTransport: Cannot find entry vendor.qti.hardware.servicetracker@1.0::IServicetracker/default in either framework or device manifest.
+2021-09-20 23:11:38.560 587-587/? I/chatty: uid=1000(system) hwservicemanage identical 4 lines
+2021-09-20 23:11:38.578 587-587/? I/hwservicemanager: getTransport: Cannot find entry vendor.qti.hardware.servicetracker@1.0::IServicetracker/default in either framework or device manifest.
+2021-09-20 23:11:38.596 11180-11265/? W/ComponentDiscovery: Class com.google.firebase.dynamicloading.DynamicLoadingRegistrar is not an found.
+2021-09-20 23:11:38.605 11180-11265/? I/FirebaseApp: Device unlocked: initializing all Firebase APIs for app ONESIGNAL_SDK_FCM_APP_NAME
+2021-09-20 23:11:38.790 1960-2074/? D/CompatibilityInfo: mCompatibilityFlags - 0
+2021-09-20 23:11:38.791 1960-2074/? D/CompatibilityInfo: applicationDensity - 440
+2021-09-20 23:11:38.791 1960-2074/? D/CompatibilityInfo: applicationScale - 1.0
+2021-09-20 23:11:38.797 587-587/? I/hwservicemanager: getTransport: Cannot find entry vendor.qti.hardware.servicetracker@1.0::IServicetracker/default in either framework or device manifest.
+2021-09-20 23:11:38.808 1960-2074/? D/CompatibilityInfo: mCompatibilityFlags - 0
+2021-09-20 23:11:38.808 1960-2074/? D/CompatibilityInfo: applicationDensity - 440
+2021-09-20 23:11:38.808 1960-2074/? D/CompatibilityInfo: applicationScale - 1.0
+2021-09-20 23:11:38.810 587-587/? I/hwservicemanager: getTransport: Cannot find entry vendor.qti.hardware.servicetracker@1.0::IServicetracker/default in either framework or device manifest.
+2021-09-20 23:11:38.841 1960-2093/? D/NtpTrustedTime: currentTimeMillis() cache hit
+2021-09-20 23:11:38.848 24916-24916/? E/Recents: packageMonitor   onPackageModified  packageName=com.stroworld.stroapps   mIsRecentsWithinLauncher=true
+2021-09-20 23:11:38.848 1960-3941/? W/LocationProviderProxy: com.qualcomm.location resolves service com.android.location.service.v3.NetworkLocationProvider, but has wrong signature, ignoring
+2021-09-20 23:11:38.848 24916-24916/? E/Recents: packageMonitor   onPackageModified  packageName=com.stroworld.stroapps   mIsRecentsWithinLauncher=true
+2021-09-20 23:11:38.849 1960-3941/? W/LocationProviderProxy: com.google.android.gms resolves service com.android.location.service.v3.NetworkLocationProvider, but has wrong signature, ignoring
+2021-09-20 23:11:38.849 27597-11276/? I/Authzen: [DeviceStateSyncManager] The server is in sync with current state. Nothing to do
+2021-09-20 23:11:38.849 1960-3941/? W/LocationProviderProxy: com.qualcomm.location resolves service com.android.location.service.v3.NetworkLocationProvider, but has wrong signature, ignoring
+2021-09-20 23:11:38.849 1960-3941/? W/LocationProviderProxy: Odd, no component found for service com.android.location.service.v3.NetworkLocationProvider
+2021-09-20 23:11:38.854 2453-2453/? D/CarrierSvcBindHelper: No carrier app for: 0
+2021-09-20 23:11:38.855 2453-2453/? E/PhoneInterfaceManager: [PhoneIntfMgr] getCarrierPackageNamesForIntent: No UICC
+2021-09-20 23:11:38.855 2453-2453/? D/CarrierSvcBindHelper: No carrier app for: 1
+2021-09-20 23:11:38.855 2453-2453/? D/ImsResolver: maybeAddedImsService, packageName: com.stroworld.stroapps
+2021-09-20 23:11:38.860 587-587/? I/hwservicemanager: getTransport: Cannot find entry vendor.qti.hardware.servicetracker@1.0::IServicetracker/default in either framework or device manifest.
+2021-09-20 23:11:38.861 1108-1108/? I/netd: tetherGetStats() <2.82ms>
+2021-09-20 23:11:38.862 24916-24916/? D/LockScreenMagazineController: received broadcast android.intent.action.PACKAGE_CHANGED
+2021-09-20 23:11:38.862 24916-25014/? D/EventBus: [24916, u0] post(PackagesChangedEvent)
+2021-09-20 23:11:38.862 24916-25014/? D/EventBus: [24916, u0] post(PackagesChangedEvent)
+2021-09-20 23:11:38.868 24916-24916/? D/ControlsListingControllerImpl: ServiceConfig reloaded
+2021-09-20 23:11:38.868 24916-24916/? D/EventBus: [24916, u0]  -> TaskStackView [0xc54e00d, P3] onBusEvent(PackagesChangedEvent)
+2021-09-20 23:11:38.868 24916-24916/? D/EventBus: [24916, u0] onBusEvent(PackagesChangedEvent) duration: 20 microseconds, avg: 356
+2021-09-20 23:11:38.868 24916-24916/? D/EventBus: [24916, u0]  -> RecentsRecommendView [0x64f0a44, P1] onBusEvent(PackagesChangedEvent)
+2021-09-20 23:11:38.868 24916-24916/? D/EventBus: [24916, u0] onBusEvent(PackagesChangedEvent) duration: 5 microseconds, avg: 356
+2021-09-20 23:11:38.868 24916-24916/? D/EventBus: [24916, u0]  -> RecentsTaskLoader [0x153eae3, P1] onBusEvent(PackagesChangedEvent)
+2021-09-20 23:11:38.869 24916-24916/? D/EventBus: [24916, u0] onBusEvent(PackagesChangedEvent) duration: 30 microseconds, avg: 356
+2021-09-20 23:11:38.869 24916-24916/? D/EventBus: [24916, u0]  -> TaskStackView [0xc54e00d, P3] onBusEvent(PackagesChangedEvent)
+2021-09-20 23:11:38.869 24916-24916/? D/EventBus: [24916, u0] onBusEvent(PackagesChangedEvent) duration: 9 microseconds, avg: 356
+2021-09-20 23:11:38.869 24916-24916/? D/EventBus: [24916, u0]  -> RecentsRecommendView [0x64f0a44, P1] onBusEvent(PackagesChangedEvent)
+2021-09-20 23:11:38.869 24916-24916/? D/EventBus: [24916, u0] onBusEvent(PackagesChangedEvent) duration: 4 microseconds, avg: 356
+2021-09-20 23:11:38.869 24916-24916/? D/EventBus: [24916, u0]  -> RecentsTaskLoader [0x153eae3, P1] onBusEvent(PackagesChangedEvent)
+2021-09-20 23:11:38.869 24916-24916/? D/EventBus: [24916, u0] onBusEvent(PackagesChangedEvent) duration: 22 microseconds, avg: 356
+2021-09-20 23:11:38.870 1960-5179/? D/CompatibilityInfo: mCompatibilityFlags - 0
+2021-09-20 23:11:38.870 1960-5179/? D/CompatibilityInfo: applicationDensity - 440
+2021-09-20 23:11:38.870 1960-5179/? D/CompatibilityInfo: applicationScale - 1.0
+2021-09-20 23:11:38.871 587-587/? I/hwservicemanager: getTransport: Cannot find entry vendor.qti.hardware.servicetracker@1.0::IServicetracker/default in either framework or device manifest.
+2021-09-20 23:11:38.888 21319-11018/? I/Ad: isPersonalizedAdEnabled getAdSettings: 3
+2021-09-20 23:11:38.904 1960-1960/? W/system_server: resources.arsc in APK '/data/app/com.facemoji.lite.xiaomi--st4FrVJLGJ4f371CD96tw==/base.apk' is compressed.
+2021-09-20 23:11:38.904 1960-2093/? D/NtpTrustedTime: currentTimeMillis() cache hit
+2021-09-20 23:11:38.907 1108-1108/? I/netd: bandwidthSetGlobalAlert(131072) <0.28ms>
+2021-09-20 23:11:38.916 12136-12283/? I/TrafficManageService: mina mTrafficStatsReceiver onReceive
+2021-09-20 23:11:38.930 1960-2083/? I/InputReader: Reconfiguring input devices.  changes=0x00000010
+2021-09-20 23:11:38.934 587-587/? I/hwservicemanager: getTransport: Cannot find entry vendor.qti.hardware.servicetracker@1.0::IServicetracker/default in either framework or device manifest.
+2021-09-20 23:11:38.937 27755-11290/? I/Fitness: OnPackageChangedOperation got intent: Intent { act=android.intent.action.PACKAGE_CHANGED dat=package:com.stroworld.stroapps flg=0x45000010 pkg=com.google.android.gms cmp=com.google.android.gms/.chimera.PersistentIntentOperationService (has extras) } [CONTEXT service_id=17 ]
+2021-09-20 23:11:38.938 1960-2096/? I/MiuiNetworkPolicy: updateUidState uid = 10176, uidState = 5
+2021-09-20 23:11:38.945 1960-5399/? D/CompatibilityInfo: mCompatibilityFlags - 0
+2021-09-20 23:11:38.945 1960-5399/? D/CompatibilityInfo: applicationDensity - 440
+2021-09-20 23:11:38.945 1960-5399/? D/CompatibilityInfo: applicationScale - 1.0
+2021-09-20 23:11:38.951 587-587/? I/hwservicemanager: getTransport: Cannot find entry vendor.qti.hardware.servicetracker@1.0::IServicetracker/default in either framework or device manifest.
+2021-09-20 23:11:38.975 1960-1960/? W/Looper: Slow dispatch took 131ms main h=android.app.ActivityThread$H c=android.app.-$$Lambda$LoadedApk$ReceiverDispatcher$Args$_BumDX2UKsnxLVrE6UJsJZkotuA@c9f5e0a m=0
+2021-09-20 23:11:38.984 1960-3524/? D/CompatibilityInfo: mCompatibilityFlags - 0
+2021-09-20 23:11:38.984 1960-3524/? D/CompatibilityInfo: applicationDensity - 440
+2021-09-20 23:11:38.984 1960-3524/? D/CompatibilityInfo: applicationScale - 1.0
+2021-09-20 23:11:38.986 587-587/? I/hwservicemanager: getTransport: Cannot find entry vendor.qti.hardware.servicetracker@1.0::IServicetracker/default in either framework or device manifest.
+2021-09-20 23:11:38.991 1960-5607/? D/CompatibilityInfo: mCompatibilityFlags - 0
+2021-09-20 23:11:38.991 1960-5607/? D/CompatibilityInfo: applicationDensity - 440
+2021-09-20 23:11:38.991 1960-5607/? D/CompatibilityInfo: applicationScale - 1.0
+2021-09-20 23:11:38.992 587-587/? I/hwservicemanager: getTransport: Cannot find entry vendor.qti.hardware.servicetracker@1.0::IServicetracker/default in either framework or device manifest.
+2021-09-20 23:11:38.998 21319-11018/? W/System.err: javax.net.ssl.SSLPeerUnverifiedException: No peer certificates
+2021-09-20 23:11:38.999 1960-5399/? D/CompatibilityInfo: mCompatibilityFlags - 0
+2021-09-20 23:11:38.999 1960-5399/? D/CompatibilityInfo: applicationDensity - 440
+2021-09-20 23:11:38.999 1960-5399/? D/CompatibilityInfo: applicationScale - 1.0
+2021-09-20 23:11:39.000 587-587/? I/hwservicemanager: getTransport: Cannot find entry vendor.qti.hardware.servicetracker@1.0::IServicetracker/default in either framework or device manifest.
+2021-09-20 23:11:39.003 21319-11018/? W/System.err:     at com.android.org.conscrypt.SessionSnapshot.getPeerCertificates(SessionSnapshot.java:134)
+2021-09-20 23:11:39.003 21319-11018/? W/System.err:     at com.android.org.conscrypt.ExternalSession.getPeerCertificates(ExternalSession.java:106)
+2021-09-20 23:11:39.003 21319-11018/? W/System.err:     at com.android.org.conscrypt.Java7ExtendedSSLSession.getPeerCertificates(Java7ExtendedSSLSession.java:129)
+2021-09-20 23:11:39.003 21319-11018/? W/System.err:     at com.android.org.conscrypt.Java7ExtendedSSLSession.getPeerCertificates(Java7ExtendedSSLSession.java:31)
+2021-09-20 23:11:39.003 21319-11018/? W/System.err:     at b.a.a.e.a.k(EncryptInterceptor.java:3)
+2021-09-20 23:11:39.003 21319-11018/? W/System.err:     at b.a.a.e.a.a(EncryptInterceptor.java:9)
+2021-09-20 23:11:39.003 21319-11018/? W/System.err:     at okhttp3.e0.f.g.j(RealInterceptorChain.java:9)
+2021-09-20 23:11:39.003 21319-11018/? W/System.err:     at okhttp3.internal.connection.a.a(ConnectInterceptor.java:7)
+2021-09-20 23:11:39.003 21319-11018/? W/System.err:     at okhttp3.e0.f.g.j(RealInterceptorChain.java:9)
+2021-09-20 23:11:39.003 21319-11018/? W/System.err:     at okhttp3.e0.f.g.d(RealInterceptorChain.java:1)
+2021-09-20 23:11:39.003 587-587/? I/hwservicemanager: getTransport: Cannot find entry vendor.qti.hardware.servicetracker@1.0::IServicetracker/default in either framework or device manifest.
+2021-09-20 23:11:39.003 21319-11018/? W/System.err:     at okhttp3.e0.e.a.a(CacheInterceptor.java:22)
+2021-09-20 23:11:39.003 21319-11018/? W/System.err:     at okhttp3.e0.f.g.j(RealInterceptorChain.java:9)
+2021-09-20 23:11:39.003 21319-11018/? W/System.err:     at okhttp3.e0.f.g.d(RealInterceptorChain.java:1)
+2021-09-20 23:11:39.003 21319-11018/? W/System.err:     at okhttp3.e0.f.a.a(BridgeInterceptor.java:22)
+2021-09-20 23:11:39.003 21319-11018/? W/System.err:     at okhttp3.e0.f.g.j(RealInterceptorChain.java:9)
+2021-09-20 23:11:39.003 21319-11018/? W/System.err:     at okhttp3.e0.f.j.a(RetryAndFollowUpInterceptor.java:9)
+2021-09-20 23:11:39.003 21319-11018/? W/System.err:     at okhttp3.e0.f.g.j(RealInterceptorChain.java:9)
+2021-09-20 23:11:39.003 21319-11018/? W/System.err:     at okhttp3.e0.f.g.d(RealInterceptorChain.java:1)
+2021-09-20 23:11:39.003 21319-11018/? W/System.err:     at okhttp3.logging.HttpLoggingInterceptor.a(HttpLoggingInterceptor.java:42)
+2021-09-20 23:11:39.003 21319-11018/? W/System.err:     at okhttp3.e0.f.g.j(RealInterceptorChain.java:9)
+2021-09-20 23:11:39.003 21319-11018/? W/System.err:     at okhttp3.e0.f.g.d(RealInterceptorChain.java:1)
+2021-09-20 23:11:39.003 21319-11018/? W/System.err:     at b.b.b.b.d.c.a$b.a(OkHttpClientHolder.java:6)
+2021-09-20 23:11:39.003 21319-11018/? W/System.err:     at okhttp3.e0.f.g.j(RealInterceptorChain.java:9)
+2021-09-20 23:11:39.003 21319-11018/? W/System.err:     at okhttp3.e0.f.g.d(RealInterceptorChain.java:1)
+2021-09-20 23:11:39.003 21319-11018/? W/System.err:     at okhttp3.y.d(RealCall.java:13)
+2021-09-20 23:11:39.003 21319-11018/? W/System.err:     at okhttp3.y.execute(RealCall.java:9)
+2021-09-20 23:11:39.003 21319-11018/? W/System.err:     at com.xiaomi.ad.internal.server.remote.http.d.b(URLClient.java:17)
+2021-09-20 23:11:39.003 21319-11018/? W/System.err:     at com.xiaomi.ad.internal.server.remote.http.d.c(URLClient.java:1)
+2021-09-20 23:11:39.003 21319-11018/? W/System.err:     at com.xiaomi.ad.internal.server.remote.http.d.a(URLClient.java:1)
+2021-09-20 23:11:39.003 21319-11018/? W/System.err:     at com.xiaomi.ad.internal.server.h.l.c(ServerV30.java:8)
+2021-09-20 23:11:39.003 21319-11018/? W/System.err:     at com.xiaomi.ad.internal.server.h.l.b(ServerV30.java:2)
+2021-09-20 23:11:39.003 21319-11018/? W/System.err:     at com.xiaomi.ad.internal.server.h.j.u(PreinstallInfoServer.java:4)
+2021-09-20 23:11:39.003 21319-11018/? W/System.err:     at com.xiaomi.ad.internal.server.cache.i.c$a.execute(PreinstallInfoCache.java:7)
+2021-09-20 23:11:39.003 21319-11018/? W/System.err:     at com.xiaomi.ad.internal.common.f.run(ThrowableCaughtRunnable.java:1)
+2021-09-20 23:11:39.003 21319-11018/? W/System.err:     at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1167)
+2021-09-20 23:11:39.003 21319-11018/? W/System.err:     at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+2021-09-20 23:11:39.003 21319-11018/? W/System.err:     at java.lang.Thread.run(Thread.java:919)
+2021-09-20 23:11:39.005 1960-5416/? D/CompatibilityInfo: mCompatibilityFlags - 0
+2021-09-20 23:11:39.005 1960-5416/? D/CompatibilityInfo: applicationDensity - 440
+2021-09-20 23:11:39.005 1960-5416/? D/CompatibilityInfo: applicationScale - 1.0
+2021-09-20 23:11:39.006 587-587/? I/hwservicemanager: getTransport: Cannot find entry vendor.qti.hardware.servicetracker@1.0::IServicetracker/default in either framework or device manifest.
+2021-09-20 23:11:39.017 587-587/? I/chatty: uid=1000(system) hwservicemanage identical 2 lines
+2021-09-20 23:11:39.025 587-587/? I/hwservicemanager: getTransport: Cannot find entry vendor.qti.hardware.servicetracker@1.0::IServicetracker/default in either framework or device manifest.
+2021-09-20 23:11:39.034 1108-11296/? E/ResolverController: No valid NAT64 prefix (107, <unspecified>/0)
+2021-09-20 23:11:39.036 587-587/? I/hwservicemanager: getTransport: Cannot find entry vendor.qti.hardware.servicetracker@1.0::IServicetracker/default in either framework or device manifest.
+2021-09-20 23:11:39.036 27755-11282/? I/Fitness: FitCleanupIntentOperation received Intent android.intent.action.PACKAGE_CHANGED [CONTEXT service_id=17 ]
+2021-09-20 23:11:39.043 27755-27813/? W/ChimeraUtils: Module com.google.android.gms.nearby_en has empty metadata display_name_string_id
+2021-09-20 23:11:39.044 1960-5607/? D/CompatibilityInfo: mCompatibilityFlags - 0
+2021-09-20 23:11:39.044 1960-5607/? D/CompatibilityInfo: applicationDensity - 440
+2021-09-20 23:11:39.044 1960-5607/? D/CompatibilityInfo: applicationScale - 1.0
+2021-09-20 23:11:39.045 587-587/? I/hwservicemanager: getTransport: Cannot find entry vendor.qti.hardware.servicetracker@1.0::IServicetracker/default in either framework or device manifest.
+2021-09-20 23:11:39.047 587-587/? I/hwservicemanager: getTransport: Cannot find entry vendor.qti.hardware.servicetracker@1.0::IServicetracker/default in either framework or device manifest.
+2021-09-20 23:11:39.051 27597-27686/? I/Icing: IndexChimeraService.getServiceInterface callingPackage=com.google.android.gms componentName=AppsCorpus serviceId=36
+2021-09-20 23:11:39.057 587-587/? I/hwservicemanager: getTransport: Cannot find entry vendor.qti.hardware.servicetracker@1.0::IServicetracker/default in either framework or device manifest.
+2021-09-20 23:11:39.059 27755-27813/? W/ChimeraUtils: Module com.google.android.gms.nearby_en has empty metadata display_name_string_id
+2021-09-20 23:11:39.061 1960-5416/? D/CompatibilityInfo: mCompatibilityFlags - 0
+2021-09-20 23:11:39.061 1960-5416/? D/CompatibilityInfo: applicationDensity - 440
+2021-09-20 23:11:39.061 1960-5416/? D/CompatibilityInfo: applicationScale - 1.0
+2021-09-20 23:11:39.062 587-587/? I/hwservicemanager: getTransport: Cannot find entry vendor.qti.hardware.servicetracker@1.0::IServicetracker/default in either framework or device manifest.
+2021-09-20 23:11:39.064 27755-27755/? D/BoundBrokerSvc: onBind: Intent { act=com.google.android.gms.scheduler.ACTION_PROXY_SCHEDULE cmp=com.google.android.gms/.chimera.PersistentInternalBoundBrokerService }
+2021-09-20 23:11:39.064 27755-27755/? D/BoundBrokerSvc: Loading bound service for intent: Intent { act=com.google.android.gms.scheduler.ACTION_PROXY_SCHEDULE cmp=com.google.android.gms/.chimera.PersistentInternalBoundBrokerService }
+2021-09-20 23:11:39.067 27755-27813/? W/ChimeraUtils: Module com.google.android.gms.nearby_en has empty metadata display_name_string_id
+2021-09-20 23:11:39.075 587-587/? I/hwservicemanager: getTransport: Cannot find entry vendor.qti.hardware.servicetracker@1.0::IServicetracker/default in either framework or device manifest.
+2021-09-20 23:11:39.077 1960-5416/? D/CompatibilityInfo: mCompatibilityFlags - 0
+2021-09-20 23:11:39.077 1960-5416/? D/CompatibilityInfo: applicationDensity - 440
+2021-09-20 23:11:39.077 1960-5416/? D/CompatibilityInfo: applicationScale - 1.0
+2021-09-20 23:11:39.078 587-587/? I/hwservicemanager: getTransport: Cannot find entry vendor.qti.hardware.servicetracker@1.0::IServicetracker/default in either framework or device manifest.
+2021-09-20 23:11:39.081 587-587/? I/chatty: uid=1000(system) hwservicemanage identical 1 line
+2021-09-20 23:11:39.085 587-587/? I/hwservicemanager: getTransport: Cannot find entry vendor.qti.hardware.servicetracker@1.0::IServicetracker/default in either framework or device manifest.
+2021-09-20 23:11:39.088 1960-5416/? D/CompatibilityInfo: mCompatibilityFlags - 0
+2021-09-20 23:11:39.088 1960-5416/? D/CompatibilityInfo: applicationDensity - 440
+2021-09-20 23:11:39.088 1960-5416/? D/CompatibilityInfo: applicationScale - 1.0
+2021-09-20 23:11:39.089 587-587/? I/hwservicemanager: getTransport: Cannot find entry vendor.qti.hardware.servicetracker@1.0::IServicetracker/default in either framework or device manifest.
+2021-09-20 23:11:39.106 27597-3265/? I/GmsCoreXrpcWrapper: Returning a channel provider with trafficStatsTag=12803 trafficStatsUid=-1
+2021-09-20 23:11:39.106 587-587/? I/hwservicemanager: getTransport: Cannot find entry vendor.qti.hardware.servicetracker@1.0::IServicetracker/default in either framework or device manifest.
+2021-09-20 23:11:39.108 27597-27597/? D/BoundBrokerSvc: onBind: Intent { act=com.google.android.gms.feedback.internal.IFeedbackService cmp=com.google.android.gms/.chimera.GmsBoundBrokerService }
+2021-09-20 23:11:39.108 27597-27597/? D/BoundBrokerSvc: Loading bound service for intent: Intent { act=com.google.android.gms.feedback.internal.IFeedbackService cmp=com.google.android.gms/.chimera.GmsBoundBrokerService }
+2021-09-20 23:11:39.113 2469-2469/? D/Launcher.Model: LauncherAppsCallback onPackageChanged|com.stroworld.stroapps|UserHandle{0}
+2021-09-20 23:11:39.113 2469-2665/? D/Launcher.Model: Got broadcast:Intent { act=android.intent.action.PACKAGE_CHANGED dat=package:com.stroworld.stroapps (has extras) }
+2021-09-20 23:11:39.114 27755-27845/? W/NetworkScheduler: Error inserting flex_time=0 job_id=-1 period=2000 source=16 requires_charging=0 preferred_network_type=1 target_class=com.google.android.gms.measurement.PackageMeasurementTaskService user_id=0 target_package=com.google.android.gms tag=Measurement.PackageMeasurementTaskService.UPLOAD_TASK_TAG task_type=0 required_idleness_state=0 service_kind=0 source_version=213314000 persistence_level=1 preferred_charging_state=1 required_network_type=0 runtime=1632154299105 retry_strategy={"maximum_backoff_seconds":{"3600":0},"initial_backoff_seconds":{"30":0},"retry_policy":{"0":0}} last_runtime=0, error message: UNIQUE constraint failed: pending_ops.tag, pending_ops.target_class, pending_ops.target_package, pending_ops.user_id (code 2067 SQLITE_CONSTRAINT_UNIQUE) [CONTEXT service_id=218 ]
+2021-09-20 23:11:39.116 2469-2665/? D/ReflectUtils: getFieldValue
+    java.lang.IllegalAccessException: Class java.lang.Class<com.miui.launcher.utils.ReflectUtils> cannot access private  field android.content.pm.ActivityInfo android.content.pm.LauncherActivityInfo.mActivityInfo of class java.lang.Class<android.content.pm.LauncherActivityInfo>
+        at java.lang.reflect.Field.get(Native Method)
+        at com.miui.launcher.utils.ReflectUtils.getFieldValue(ReflectUtils.java:134)
+        at com.miui.home.library.compat.LauncherActivityInfoCompat.getActivityInfo(LauncherActivityInfoCompat.java:13)
+        at com.miui.home.library.compat.LauncherActivityInfoCompat.getIconResource(LauncherActivityInfoCompat.java:18)
+        at com.miui.home.launcher.IconProvider.getActivityIcon(IconProvider.java:50)
+        at com.miui.home.launcher.IconCache.addIconToMemCache(IconCache.java:132)
+        at com.miui.home.launcher.IconCache.updateIconsForPkg(IconCache.java:113)
+        at com.miui.home.launcher.LauncherModel.onReceiveBackground(LauncherModel.java:959)
+        at com.miui.home.launcher.LauncherModel$LauncherAppsCallback$1.run(LauncherModel.java:319)
+        at com.miui.home.launcher.LauncherModel$8.run(LauncherModel.java:877)
+        at android.os.Handler.handleCallback(Handler.java:883)
+        at android.os.Handler.dispatchMessage(Handler.java:100)
+        at android.os.Looper.loop(Looper.java:224)
+        at android.os.HandlerThread.run(HandlerThread.java:67)
+2021-09-20 23:11:39.116 587-587/? I/hwservicemanager: getTransport: Cannot find entry vendor.qti.hardware.servicetracker@1.0::IServicetracker/default in either framework or device manifest.
+2021-09-20 23:11:39.118 2469-2665/? D/ReflectUtils: getFieldValue
+    java.lang.IllegalAccessException: Class java.lang.Class<com.miui.launcher.utils.ReflectUtils> cannot access private  field android.content.pm.ActivityInfo android.content.pm.LauncherActivityInfo.mActivityInfo of class java.lang.Class<android.content.pm.LauncherActivityInfo>
+        at java.lang.reflect.Field.get(Native Method)
+        at com.miui.launcher.utils.ReflectUtils.getFieldValue(ReflectUtils.java:134)
+        at com.miui.home.library.compat.LauncherActivityInfoCompat.getActivityInfo(LauncherActivityInfoCompat.java:13)
+        at com.miui.home.library.compat.LauncherActivityInfoCompat.getIconResource(LauncherActivityInfoCompat.java:18)
+        at com.miui.home.launcher.IconProvider.getActivityIcon(IconProvider.java:55)
+        at com.miui.home.launcher.IconCache.addIconToMemCache(IconCache.java:132)
+        at com.miui.home.launcher.IconCache.updateIconsForPkg(IconCache.java:113)
+        at com.miui.home.launcher.LauncherModel.onReceiveBackground(LauncherModel.java:959)
+        at com.miui.home.launcher.LauncherModel$LauncherAppsCallback$1.run(LauncherModel.java:319)
+        at com.miui.home.launcher.LauncherModel$8.run(LauncherModel.java:877)
+        at android.os.Handler.handleCallback(Handler.java:883)
+        at android.os.Handler.dispatchMessage(Handler.java:100)
+        at android.os.Looper.loop(Looper.java:224)
+        at android.os.HandlerThread.run(HandlerThread.java:67)
+2021-09-20 23:11:39.121 587-587/? I/hwservicemanager: getTransport: Cannot find entry vendor.qti.hardware.servicetracker@1.0::IServicetracker/default in either framework or device manifest.
+2021-09-20 23:11:39.125 2469-2665/? D/IconCustomizer: Content Ratio = 1.1818181
+2021-09-20 23:11:39.125 587-587/? I/hwservicemanager: getTransport: Cannot find entry vendor.qti.hardware.servicetracker@1.0::IServicetracker/default in either framework or device manifest.
+2021-09-20 23:11:39.126 2469-2665/? D/IconCustomizer: Generate customized icon for com.stroworld.stroapps.png
+2021-09-20 23:11:39.129 587-587/? I/hwservicemanager: getTransport: Cannot find entry vendor.qti.hardware.servicetracker@1.0::IServicetracker/default in either framework or device manifest.
+2021-09-20 23:11:39.133 27597-3265/? I/Icing: Usage reports ok 1, Failed Usage reports 0, indexed 0, rejected 0
+2021-09-20 23:11:39.134 2469-2665/? I/ThemeRuntimeManager: add pending job com.stroworld.stroapps.png
+2021-09-20 23:11:39.134 587-587/? I/hwservicemanager: getTransport: Cannot find entry vendor.qti.hardware.servicetracker@1.0::IServicetracker/default in either framework or device manifest.
+2021-09-20 23:11:39.135 2469-2665/? D/Launcher.AllAppsList: updatePackage, packageName=com.stroworld.stroapps, loadMissing=false, user=UserHandle{0}, matchedSize=1
+2021-09-20 23:11:39.135 2469-2665/? D/Launcher.AllAppsList: updatePackage, find appInfo=AppInfo, id=-1, itemType=0, user=UserHandle{0}, mIconType=0, pkgName=com.stroworld.stroapps, className=com.stroworld.stroapps.MainActivity, screenId=-1, container=-1, cellX=-1, cellY=-1, spanX=1, spanY=1, isLandscapePos=false from ComponentInfo{com.stroworld.stroapps/com.stroworld.stroapps.MainActivity}
+2021-09-20 23:11:39.137 2469-2665/? D/Launcher.Model: onReceiveBackground, mAllAppsList=add=[], remove=[], modified=[(0, AppInfo, id=-1, itemType=0, user=UserHandle{0}, mIconType=0, pkgName=com.stroworld.stroapps, className=com.stroworld.stroapps.MainActivity, screenId=-1, container=-1, cellX=-1, cellY=-1, spanX=1, spanY=1, isLandscapePos=false)]
+2021-09-20 23:11:39.137 2469-11303/? I/ThemeRuntimeManager: saving icon for com.stroworld.stroapps.png
+2021-09-20 23:11:39.137 1960-1960/? W/Looper: Slow dispatch took 105ms main h=android.app.ActivityThread$H c=android.app.-$$Lambda$LoadedApk$ReceiverDispatcher$Args$_BumDX2UKsnxLVrE6UJsJZkotuA@d882d91 m=0
+2021-09-20 23:11:39.139 1960-1960/? I/Telecom: DefaultDialerCache: Refreshing default dialer for user 0: now com.android.contacts: DDC.oR@gOA
+2021-09-20 23:11:39.139 1960-1960/? W/Looper: Slow delivery took 294ms main h=android.app.ActivityThread$H c=android.app.-$$Lambda$LoadedApk$ReceiverDispatcher$Args$_BumDX2UKsnxLVrE6UJsJZkotuA@3c4f6 m=0
+2021-09-20 23:11:39.141 2469-2469/? D/ForceDarkHelper: updateByCheckExcludeList: pkg: com.miui.home activity: com.miui.home.launcher.Launcher@abd0b8f
+2021-09-20 23:11:39.144 2469-2469/? I/chatty: uid=10090(com.miui.home) identical 8 lines
+2021-09-20 23:11:39.144 2469-2469/? D/ForceDarkHelper: updateByCheckExcludeList: pkg: com.miui.home activity: com.miui.home.launcher.Launcher@abd0b8f
+2021-09-20 23:11:39.147 27597-27686/? I/Icing: IndexChimeraService.getServiceInterface callingPackage=com.google.android.gms componentName=null serviceId=30
+2021-09-20 23:11:39.156 27597-3265/? I/GmsCoreXrpcWrapper: Returning a channel provider with trafficStatsTag=12803 trafficStatsUid=-1
+2021-09-20 23:11:39.159 1960-5416/? E/com_miui_internal_os_Native-JNI: chown /data/system/theme_magic/customized_icons/com.stroworld.stroapps.png failed: Operation not permitted
+2021-09-20 23:11:39.159 1960-5416/? W/ThemePermissionUtils: Failed to updateFilePermissionWithThemeContext /data/system/theme_magic/customized_icons/com.stroworld.stroapps.png
+2021-09-20 23:11:39.168 27597-3265/? I/Icing: Usage reports ok 0, Failed Usage reports 0, indexed 0, rejected 0
+2021-09-20 23:11:39.169 27597-3265/? I/Icing: Indexing com.google.android.gms-apps from com.google.android.gms
+2021-09-20 23:11:39.179 27597-3265/? I/Icing: Indexing done com.google.android.gms-apps
+2021-09-20 23:11:39.183 587-587/? I/hwservicemanager: getTransport: Cannot find entry vendor.qti.hardware.servicetracker@1.0::IServicetracker/default in either framework or device manifest.
+2021-09-20 23:11:39.540 1960-1960/? W/Looper: Drained
+2021-09-20 23:11:39.549 587-587/? I/hwservicemanager: getTransport: Cannot find entry vendor.qti.hardware.servicetracker@1.0::IServicetracker/default in either framework or device manifest.
+2021-09-20 23:11:39.552 1960-5416/? D/CompatibilityInfo: mCompatibilityFlags - 0
+2021-09-20 23:11:39.552 1960-5416/? D/CompatibilityInfo: applicationDensity - 440
+2021-09-20 23:11:39.552 1960-5416/? D/CompatibilityInfo: applicationScale - 1.0
+2021-09-20 23:11:39.553 587-587/? I/hwservicemanager: getTransport: Cannot find entry vendor.qti.hardware.servicetracker@1.0::IServicetracker/default in either framework or device manifest.
+2021-09-20 23:11:39.566 587-587/? I/chatty: uid=1000(system) hwservicemanage identical 1 line
+2021-09-20 23:11:39.567 587-587/? I/hwservicemanager: getTransport: Cannot find entry vendor.qti.hardware.servicetracker@1.0::IServicetracker/default in either framework or device manifest.
+2021-09-20 23:11:39.572 21319-11018/? E/AD-PLUGIN-PreinstallInfoCache: dealIconUrl->downloadResourceData.url=https://t7.a.market.xiaomi.com/download/AdCenter/0023cd8466ca2479596b7436cf8cea0283a7f1d96/icon.png
+2021-09-20 23:11:39.572 587-587/? I/hwservicemanager: getTransport: Cannot find entry vendor.qti.hardware.servicetracker@1.0::IServicetracker/default in either framework or device manifest.
+2021-09-20 23:11:39.576 1960-5416/? D/CompatibilityInfo: mCompatibilityFlags - 0
+2021-09-20 23:11:39.576 1960-5416/? D/CompatibilityInfo: applicationDensity - 440
+2021-09-20 23:11:39.576 1960-5416/? D/CompatibilityInfo: applicationScale - 1.0
+2021-09-20 23:11:39.577 587-587/? I/hwservicemanager: getTransport: Cannot find entry vendor.qti.hardware.servicetracker@1.0::IServicetracker/default in either framework or device manifest.
+2021-09-20 23:11:39.584 21319-11018/? E/AD-PLUGIN-PreinstallInfoCache: dealIconUrl->downloadResourceData.url=https://t7.a.market.xiaomi.com/download/AdCenter/0caa6fcafcc074e538e5dedbb8e169dd898df7d78/icon.png
+2021-09-20 23:11:39.591 587-587/? I/hwservicemanager: getTransport: Cannot find entry vendor.qti.hardware.servicetracker@1.0::IServicetracker/default in either framework or device manifest.
+2021-09-20 23:11:39.594 587-587/? I/hwservicemanager: getTransport: Cannot find entry vendor.qti.hardware.servicetracker@1.0::IServicetracker/default in either framework or device manifest.
+2021-09-20 23:11:39.599 21319-11018/? E/AD-PLUGIN-PreinstallInfoCache: dealIconUrl->downloadResourceData.url=https://t7.a.market.xiaomi.com/download/AdCenter/0023cd8466ca2479596b7436cf8cea0283a7f1d96/icon.png
+2021-09-20 23:11:39.607 21319-11018/? E/AD-PLUGIN-PreinstallInfoCache: dealIconUrl->downloadResourceData.url=https://t7.a.market.xiaomi.com/download/AdCenter/0d8b9256a096542668681cdea025071a6494acc4c/icon.png
+2021-09-20 23:11:39.634 21319-11018/? E/AD-PLUGIN-PreinstallInfoCache: dealIconUrl->downloadResourceData.url=https://t7.a.market.xiaomi.com/download/AdCenter/00fbb92e9657c4fa3b93a1c3e07f6997ff28b3e58/icon.png
+2021-09-20 23:11:39.638 1108-11307/? E/ResolverController: No valid NAT64 prefix (107, <unspecified>/0)
+2021-09-20 23:11:39.669 21319-11018/? E/AD-PLUGIN-PreinstallInfoCache: dealIconUrl->downloadResourceData.url=https://t7.a.market.xiaomi.com/download/AdCenter/04374a491ea684819bd9d10e95b6de45af8dffad5/icon.png
+2021-09-20 23:11:39.709 21319-11018/? E/AD-PLUGIN-PreinstallInfoCache: dealIconUrl->downloadResourceData.url=https://t7.a.market.xiaomi.com/download/AdCenter/0a7c9d46f32284d20160774371e511756d2cc8e58/icon.png
+2021-09-20 23:11:39.728 27597-27609/? I/gle.android.gm: Background concurrent copying GC freed 26034(1547KB) AllocSpace objects, 11(540KB) LOS objects, 49% free, 8118KB/15MB, paused 92us total 104.793ms
+2021-09-20 23:11:39.760 21319-11018/? E/AD-PLUGIN-PreinstallInfoCache: dealIconUrl->downloadResourceData.url=https://t7.a.market.xiaomi.com/download/AdCenter/0caa6fcafcc074e538e5dedbb8e169dd898df7d78/icon.png
+2021-09-20 23:11:39.764 21319-21331/? W/miui.msa.globa: Reducing the number of considered missed Gc histogram windows from 554 to 100
+2021-09-20 23:11:39.795 21319-11018/? E/AD-PLUGIN-PreinstallInfoCache: dealIconUrl->downloadResourceData.url=https://t7.a.market.xiaomi.com/download/AdCenter/0bbec4dfc800830b1be785db3c0c52411d141b310/icon.png
+2021-09-20 23:11:39.807 27755-9238/? W/NetworkScheduler: Error inserting flex_time=9000 job_id=-1 period=20000 source=16 requires_charging=0 preferred_network_type=1 target_class=com.google.android.gms.measurement.PackageMeasurementTaskService user_id=0 target_package=com.google.android.gms tag=Measurement.PackageMeasurementTaskService.UPLOAD_TASK_TAG task_type=0 required_idleness_state=0 service_kind=0 source_version=213314000 persistence_level=1 preferred_charging_state=1 required_network_type=0 runtime=1632154299803 retry_strategy={"maximum_backoff_seconds":{"3600":0},"initial_backoff_seconds":{"30":0},"retry_policy":{"0":0}} last_runtime=0, error message: UNIQUE constraint failed: pending_ops.tag, pending_ops.target_class, pending_ops.target_package, pending_ops.user_id (code 2067 SQLITE_CONSTRAINT_UNIQUE) [CONTEXT service_id=218 ]
+2021-09-20 23:11:39.837 21319-11018/? E/AD-PLUGIN-PreinstallInfoCache: dealIconUrl->downloadResourceData.url=https://t7.a.market.xiaomi.com/download/AdCenter/078ff750e1b874cbe8b7c0400352c1244803e7804/icon.png
+2021-09-20 23:11:39.894 21319-11018/? E/AD-PLUGIN-PreinstallInfoCache: dealIconUrl->downloadResourceData.url=https://t7.a.market.xiaomi.com/download/AdCenter/0fae37e08220540f3a9cd457d07518e7e736161af/icon.png
+2021-09-20 23:11:39.901 21319-11305/? I/DpmTcmClient: RegisterTcmMonitor from: $Proxy0
+2021-09-20 23:11:40.271 587-587/? I/hwservicemanager: getTransport: Cannot find entry vendor.qti.hardware.servicetracker@1.0::IServicetracker/default in either framework or device manifest.
+2021-09-20 23:11:40.273 1960-5414/? D/WificondControl: Scan result ready event
+2021-09-20 23:11:40.274 1223-2175/? I/LOWI-8.6.0.67: [LOWI-Scan] lowi_close_record:Scan done in 1129219716ms, 5 APs in scan results
+2021-09-20 23:11:40.275 1960-5416/? D/CompatibilityInfo: mCompatibilityFlags - 0
+2021-09-20 23:11:40.275 1960-5416/? D/CompatibilityInfo: applicationDensity - 440
+2021-09-20 23:11:40.276 1960-5416/? D/CompatibilityInfo: applicationScale - 1.0
+2021-09-20 23:11:40.277 1960-2102/? D/WificondScannerImpl: Filtering out 1 scan results.
+2021-09-20 23:11:40.282 587-587/? I/hwservicemanager: getTransport: Cannot find entry vendor.qti.hardware.servicetracker@1.0::IServicetracker/default in either framework or device manifest.
+2021-09-20 23:11:40.287 3967-4238/? W/WifiMonitor: no need getAvailableWifis
+2021-09-20 23:11:40.288 3967-4238/? W/WifiMonitor: getScanResults has none
+2021-09-20 23:11:40.288 1960-2142/? E/AppScanObserverService: Result available, null observers for user: 0
+2021-09-20 23:11:40.292 587-587/? I/hwservicemanager: getTransport: Cannot find entry vendor.qti.hardware.servicetracker@1.0::IServicetracker/default in either framework or device manifest.
+2021-09-20 23:11:40.294 587-587/? I/hwservicemanager: getTransport: Cannot find entry vendor.qti.hardware.servicetracker@1.0::IServicetracker/default in either framework or device manifest.
+2021-09-20 23:11:40.578 11312-11312/? I/subsystem_ramdump: Usage:./system/bin/subsystem_ramdump [arg1] [arg2] [arg3]
+2021-09-20 23:11:40.578 11312-11312/? I/subsystem_ramdump: [arg1]: (1/2) Ramdump location: 1: eMMC: /data/vendor/ramdump or 2: SD card: /sdcard/ramdump
+2021-09-20 23:11:40.578 11312-11312/? I/subsystem_ramdump: [arg2]: (1/0) 1: Enable RPM log / 0: Disable RPM log
+2021-09-20 23:11:40.578 11312-11312/? I/subsystem_ramdump: [arg3]: (1/0) 1: Enable qdss ramdump / 0: Disable qdss ramdump
+2021-09-20 23:11:40.578 11312-11312/? I/subsystem_ramdump:  Using default ramdump location 1: eMMC: /data/vendor/ramdump
+2021-09-20 23:11:40.578 11312-11312/? I/subsystem_ramdump:  Using default 0: Disable RPM log
+2021-09-20 23:11:40.578 11312-11312/? I/subsystem_ramdump:  Using default 0: Disable qdss ramdump
+2021-09-20 23:11:40.578 11312-11312/? E/subsystem_ramdump: Unable to open /sys/module/subsystem_restart/parameters/enable_ramdumps
+2021-09-20 23:11:40.565 11312-11312/? W/subsystem_ramdu: type=1400 audit(0.0:460856): avc: denied { read } for name="enable_ramdumps" dev="sysfs" ino=25551 scontext=u:r:vendor_subsystem_ramdump:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=0
+2021-09-20 23:11:40.677 1108-11310/? E/ResolverController: No valid NAT64 prefix (107, <unspecified>/0)
+2021-09-20 23:11:40.854 24916-24916/? I/KeyguardIndication: updateIndication: mVisible false mDozing false mTransientIndication null mPowerPluggedIn true mUpArrowIndication null
+2021-09-20 23:11:40.854 24916-24916/? D/PanelView: onTouchEvent action=0 x=834,0 y=25,0
+2021-09-20 23:11:40.855 24916-24916/? D/PanelView: pv startOpening
+2021-09-20 23:11:40.884 21319-11018/? E/AD-PLUGIN-PreinstallInfoCache: dealIconUrl->downloadResourceData.url=https://t7.a.market.xiaomi.com/download/AdCenter/0023cd8466ca2479596b7436cf8cea0283a7f1d96/icon.png
+2021-09-20 23:11:40.896 21319-11018/? E/AD-PLUGIN-PreinstallInfoCache: dealIconUrl->downloadResourceData.url=https://t7.a.market.xiaomi.com/download/AdCenter/0a0052be864f04c559807154d1807cc8c3d304521/icon.png
+2021-09-20 23:11:40.909 24916-24916/? E/DeviceLevelUtils: isLowGpuDevice:1
+2021-09-20 23:11:40.911 1960-5416/? D/systemui_boost: notification panel visible=true
+2021-09-20 23:11:40.911 1960-5416/? D/systemui_boost: ui thread tid=24916
+2021-09-20 23:11:40.912 1960-5416/? D/systemui_boost: render thread tid=25018
+2021-09-20 23:11:40.912 1960-5416/? D/systemui_boost: ui thread old priority=-10
+2021-09-20 23:11:40.912 1960-5416/? D/systemui_boost: render thread old priority=-10
+2021-09-20 23:11:40.912 1960-5416/? D/systemui_boost: thread tid=24916, priority is set to -10
+2021-09-20 23:11:40.912 1960-5416/? D/systemui_boost: thread tid=25018, priority is set to -10
+2021-09-20 23:11:40.912 1960-5416/? D/systemui_boost: ui thread and render thread are boosted
+2021-09-20 23:11:40.912 24916-24916/? D/StatusBar: disable<e i a s b h r c s > disable2<q i n g r >
+2021-09-20 23:11:40.913 24916-24916/? D/StatusBarClock:  isNormalMode= true clock visible=false
+2021-09-20 23:11:40.913 24916-24916/? E/DeviceLevelUtils: isLowGpuDevice:1
+2021-09-20 23:11:40.931 24916-24916/? W/HeadsUpManager: removeHeadsUpNotification() no heads up notification on show
+2021-09-20 23:11:40.932 24916-24916/? E/DeviceLevelUtils: isLowGpuDevice:1
+2021-09-20 23:11:40.933 21319-11018/? E/AD-PLUGIN-PreinstallInfoCache: dealIconUrl->downloadResourceData.url=https://t7.a.market.xiaomi.com/download/AdCenter/0023cd8466ca2479596b7436cf8cea0283a7f1d96/icon.png
+2021-09-20 23:11:40.934 1960-3524/? D/zhoumingliang: isinvrtest==false
+2021-09-20 23:11:40.935 24916-24916/? E/DeviceLevelUtils: isLowGpuDevice:1
+2021-09-20 23:11:40.935 24916-24916/? E/DeviceLevelUtils: isLowGpuDevice:1
+2021-09-20 23:11:40.939 2469-2469/? D/Launcher.Lifecycle: onWindowFocusChanged:false,UserHandle{0},abd0b8f,true
+2021-09-20 23:11:40.945 1960-5414/? W/UriGrantsManagerService: For security reasons, the system cannot issue a Uri permission grant to content://com.miui.networkassistant.fileprovider/res/tmp.png [user 0]; use startActivityAsCaller() instead
+2021-09-20 23:11:40.950 24916-25035/? D/BrightnessController: BrightnessObserver: startObserving.
+2021-09-20 23:11:40.954 24916-25035/? D/BrightnessController: UpdateSliderRunnable: value: 443
+2021-09-20 23:11:40.955 21319-11018/? E/AD-PLUGIN-PreinstallInfoCache: dealIconUrl->downloadResourceData.url=https://t7.a.market.xiaomi.com/download/AdCenter/00fbb92e9657c4fa3b93a1c3e07f6997ff28b3e58/icon.png
+2021-09-20 23:11:40.956 24916-24916/? E/DeviceLevelUtils: isLowGpuDevice:1
+2021-09-20 23:11:40.956 24916-24916/? E/DeviceLevelUtils: isLowGpuDevice:1
+2021-09-20 23:11:40.964 24916-24916/? D/BluetoothController: fireStateChange
+2021-09-20 23:11:40.964 24916-24916/? D/PhoneStatusBarPolicy: updateBluetooth bluetoothEnabled = false bluetoothBattery visible=false
+2021-09-20 23:11:40.964 24916-24916/? D/QSTile.BluetoothTile: onBluetoothStateChange: enabled = false
+2021-09-20 23:11:40.966 24916-24916/? E/DeviceLevelUtils: isLowGpuDevice:1
+2021-09-20 23:11:40.966 24916-25035/? D/QSTile.BluetoothTile: handleUpdateState: mTargetEnable = falsemController.getBluetoothState() = 10
+2021-09-20 23:11:40.966 24916-24916/? E/DeviceLevelUtils: isLowGpuDevice:1
+2021-09-20 23:11:40.973 24916-25035/? D/QSTile.BluetoothTile: handleUpdateState: mTargetEnable = falsemController.getBluetoothState() = 10
+2021-09-20 23:11:40.975 24916-24916/? E/DeviceLevelUtils: isLowGpuDevice:1
+2021-09-20 23:11:40.976 21319-11018/? E/AD-PLUGIN-PreinstallInfoCache: dealIconUrl->downloadResourceData.url=https://t7.a.market.xiaomi.com/download/AdCenter/0d8b9256a096542668681cdea025071a6494acc4c/icon.png
+2021-09-20 23:11:40.976 24916-24916/? E/DeviceLevelUtils: isLowGpuDevice:1
+2021-09-20 23:11:40.977 24916-25035/? D/QSTile.BluetoothTile: handleUpdateState: mTargetEnable = falsemController.getBluetoothState() = 10
+2021-09-20 23:11:40.989 24916-24916/? D/PanelView: onTouchEvent action=1 x=711,0 y=531,0
+2021-09-20 23:11:40.991 24916-24916/? E/DeviceLevelUtils: isLowGpuDevice:1
+2021-09-20 23:11:40.991 24916-24916/? E/DeviceLevelUtils: isLowGpuDevice:1
+2021-09-20 23:11:40.993 24916-24916/? D/NotificationPanelView: flingSpring mSpringLength=169.13185, expand=true, vel=10490.245
+2021-09-20 23:11:41.003 21319-11018/? E/AD-PLUGIN-PreinstallInfoCache: dealIconUrl->downloadResourceData.url=https://t7.a.market.xiaomi.com/download/AdCenter/04374a491ea684819bd9d10e95b6de45af8dffad5/icon.png
+2021-09-20 23:11:41.008 24916-24916/? E/DeviceLevelUtils: isLowGpuDevice:1
+2021-09-20 23:11:41.025 24916-24916/? I/chatty: uid=1000(system) com.android.systemui identical 1 line
+2021-09-20 23:11:41.042 24916-24916/? E/DeviceLevelUtils: isLowGpuDevice:1
+2021-09-20 23:11:41.050 21319-11018/? E/AD-PLUGIN-PreinstallInfoCache: dealIconUrl->downloadResourceData.url=https://t7.a.market.xiaomi.com/download/AdCenter/0bbec4dfc800830b1be785db3c0c52411d141b310/icon.png
+2021-09-20 23:11:41.059 24916-24916/? E/DeviceLevelUtils: isLowGpuDevice:1
+2021-09-20 23:11:41.076 24916-24916/? I/chatty: uid=1000(system) com.android.systemui identical 1 line
+2021-09-20 23:11:41.093 24916-24916/? E/DeviceLevelUtils: isLowGpuDevice:1
+2021-09-20 23:11:41.100 21319-11018/? E/AD-PLUGIN-PreinstallInfoCache: dealIconUrl->downloadResourceData.url=https://t7.a.market.xiaomi.com/download/AdCenter/0f0de63905cf64c8ca46af90feb646a608b271837/icon.png
+2021-09-20 23:11:41.109 24916-24916/? E/DeviceLevelUtils: isLowGpuDevice:1
+2021-09-20 23:11:41.126 24916-24916/? I/chatty: uid=1000(system) com.android.systemui identical 1 line
+2021-09-20 23:11:41.142 24916-24916/? E/DeviceLevelUtils: isLowGpuDevice:1
+2021-09-20 23:11:41.158 21319-11018/? E/AD-PLUGIN-PreinstallInfoCache: dealIconUrl->downloadResourceData.url=https://t7.a.market.xiaomi.com/download/AdCenter/00e3d573d19e84e118a205b6556fdde77627acade/icon.png
+2021-09-20 23:11:41.159 24916-24916/? E/DeviceLevelUtils: isLowGpuDevice:1
+2021-09-20 23:11:41.209 24916-24916/? I/chatty: uid=1000(system) com.android.systemui identical 3 lines
+2021-09-20 23:11:41.226 24916-24916/? E/DeviceLevelUtils: isLowGpuDevice:1
+2021-09-20 23:11:41.236 21319-11018/? E/AD-PLUGIN-PreinstallInfoCache: dealIconUrl->downloadResourceData.url=https://t7.a.market.xiaomi.com/download/AdCenter/07b924793318d2d819071db2244d19b44d643acf9/icon.png
+2021-09-20 23:11:41.242 24916-24916/? E/DeviceLevelUtils: isLowGpuDevice:1
+2021-09-20 23:11:41.343 24916-24916/? I/chatty: uid=1000(system) com.android.systemui identical 6 lines
+2021-09-20 23:11:41.359 24916-24916/? E/DeviceLevelUtils: isLowGpuDevice:1
+2021-09-20 23:11:41.362 21319-11018/? E/AD-PLUGIN-PreinstallInfoCache: dealIconUrl->downloadResourceData.url=https://t7.a.market.xiaomi.com/download/AdCenter/03c1845a4e75f4cb2071290b3a94c01fd8f02053a/icon.png
+2021-09-20 23:11:41.375 24916-24916/? E/DeviceLevelUtils: isLowGpuDevice:1
+2021-09-20 23:11:41.410 24916-24916/? I/chatty: uid=1000(system) com.android.systemui identical 2 lines
+2021-09-20 23:11:41.425 24916-24916/? E/DeviceLevelUtils: isLowGpuDevice:1
+2021-09-20 23:11:41.436 1108-1108/? I/netd: firewallSetUidRule(2, 10558, 1) <2.79ms>
+2021-09-20 23:11:41.442 24916-24916/? E/DeviceLevelUtils: isLowGpuDevice:1
+2021-09-20 23:11:41.459 24916-24916/? I/chatty: uid=1000(system) com.android.systemui identical 1 line
+2021-09-20 23:11:41.475 24916-24916/? E/DeviceLevelUtils: isLowGpuDevice:1
+2021-09-20 23:11:41.743 1960-2093/? D/NtpTrustedTime: currentTimeMillis() cache hit
+2021-09-20 23:11:41.753 1108-1108/? I/netd: tetherGetStats() <2.27ms>
+2021-09-20 23:11:41.774 1960-2093/? D/NtpTrustedTime: currentTimeMillis() cache hit
+2021-09-20 23:11:41.777 12136-12283/? I/TrafficManageService: mina mTrafficStatsReceiver onReceive
+2021-09-20 23:11:41.777 1108-1108/? I/netd: bandwidthSetGlobalAlert(131072) <0.65ms>
+2021-09-20 23:11:42.592 11180-11198/? I/oworld.stroapp: Waiting for a blocking GC ProfileSaver
+2021-09-20 23:11:42.600 11180-11198/? I/oworld.stroapp: WaitForGcToComplete blocked ProfileSaver on ClassLinker for 8.396ms
+2021-09-20 23:11:43.223 24916-24916/? E/DeviceLevelUtils: isLowGpuDevice:1
+2021-09-20 23:11:43.316 24916-24916/? I/NotificationClickHandler: NotificationClicker onClick notification key=0|com.stroworld.stroapps|762270803|null|10558 afterKeyguardGone:false
+2021-09-20 23:11:43.317 24916-24916/? E/DeviceLevelUtils: isLowGpuDevice:1
+2021-09-20 23:11:43.319 24916-24916/? D/PanelView: flingToHeight vel=0,0 expand=false target=0,0 mExpandedHeight=1731,0
+2021-09-20 23:11:43.320 726-726/? E/ANDR-PERF-MPCTL: No valid timer value for perflock request
+2021-09-20 23:11:43.320 24916-24916/? E/DeviceLevelUtils: isLowGpuDevice:1
+2021-09-20 23:11:43.321 1960-5414/? D/systemui_boost: notification panel visible=false
+2021-09-20 23:11:43.321 1960-5414/? D/systemui_boost: ui thread tid=24916
+2021-09-20 23:11:43.321 1960-5414/? D/systemui_boost: render thread tid=25018
+2021-09-20 23:11:43.321 1960-5414/? D/systemui_boost: thread tid=24916, priority is set to -10
+2021-09-20 23:11:43.321 1960-5414/? D/systemui_boost: thread tid=25018, priority is set to -10
+2021-09-20 23:11:43.321 1960-5414/? D/systemui_boost: ui thread and render thread are reset
+2021-09-20 23:11:43.323 24916-24916/? E/DeviceLevelUtils: isLowGpuDevice:1
+2021-09-20 23:11:43.324 24916-24929/? I/ndroid.systemu: Background young concurrent copying GC freed 231512(10157KB) AllocSpace objects, 22(440KB) LOS objects, 46% free, 12MB/22MB, paused 247us total 110.411ms
+2021-09-20 23:11:43.328 2469-2469/? D/Launcher.Lifecycle: onWindowFocusChanged:true,UserHandle{0},abd0b8f,false
+2021-09-20 23:11:43.328 2469-2469/? D/Launcher_UnlockAnimationStateMachine: onWindowFocus:IDLE
+2021-09-20 23:11:43.328 24916-24994/? D/MiuiMultiWindowUtils: getCurrentFreeFormWindowMode=-1
+2021-09-20 23:11:43.329 24916-24994/? D/MiuiMultiWindowUtils: isLaunchMultiWindow:false gameKey:0isScreenProjectionPrivace:0screenProjectionState:0 noCheck:false currentMode:-1
+2021-09-20 23:11:43.333 1960-5381/? I/ActivityTaskManager: START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.stroworld.stroapps/.MainActivity} from uid 10558
+2021-09-20 23:11:43.334 1960-2096/? I/MiuiNetworkPolicy: updateUidState uid = 10558, uidState = 20
+2021-09-20 23:11:43.334 1960-5381/? D/ActivityTaskManagerServiceInjector: MIUILOG- Permission Denied Activity : Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.stroworld.stroapps/.MainActivity } pkg : com.stroworld.stroapps uid : 10558 tuid : 10090
+2021-09-20 23:11:43.334 1960-5381/? D/MiuiMultiWindowAdapter: MiuiMultiWindowAdapter::getFreeformBlackList::sSmallWindowBlackList = [com.miui.securitycenter, com.miui.weather2, com.miui.miservice, com.android.calendar, com.xiaomi.calendar, com.android.contacts, com.miui.mishare.connectivity, com.android.settings, com.android.printspooler, com.miui.backup, com.miui.huanji, com.miui.calculator, com.android.deskclock, com.android.thememanager, com.mfashiongallery.emag, com.miui.virtualsim, com.miui.smarttravel, com.mi.health, com.android.camera, com.lbe.security.miui, com.miui.cleanmaster, com.miui.newhome, com.miui.voiceassist, com.android.phone, com.miui.yellowpage, com.android.updater, com.miui.tsmclient, com.miui.securitycore, com.xiaomi.account, com.xiaomi.shop, com.xiaomi.smarthome, com.mipay.wallet, com.xiaomi.youpin, com.xiaomi.hm.health, com.miui.bugreport, com.xiaomi.mibrain.speech, com.xiaomi.mimoji, com.xiaomi.scanner, com.duokan.phone.remotecontroller, com.miui.hybrid, com.android.incallui, com.miui.video, com.miui.videoplayer, com.miui.player, com.miui.fm, com.miui.packageinstaller, com.mi.android.globallauncher, com.mi.android.globallauncher-poco, com.google.android.dialer, com.google.android.apps.magazines, com.miui.compass, com.miui.greenguard, com.kiteguard, com.google.android.apps.prodcasts, com.google.ar.lens, com.xiangkan.android, com.android.bankabc, com.sohu.inputmethod.sogou, com.tencent.mtt, com.shyz.toutiao, com.netease.mc.mi, com.outfit7.talkingtomgoldrun.mi, com.doudz.mi, com.wepie.snake.new.mi, cn.jj, com.standddz002.mi, com.miHoYo.bh3.mi, com.qqgame.hlddz, com.happyelements.AndroidAnimal, com.minitech.miniworld.TMobile.mi, com.mfp.jelly.xiaomi, com.lilithgames.afk.mi, com.tencent.peng, com.teenpatti.hd.gold, blockpuzzle.jewelgames.jewelslegend, com.playgendary.tanks, com.chillingo.robberybobfree.android.row, com.episodeinteractive.android.catalog, com.playrix.township, com.ansangha.drdriving, com.google.android.youtube, com.gbits.atm.mi, com.tencent.tetris, com.sukhavati.gotoplaying.bubble.BubbleShooter.mint, com.block.puzzle.game.hippo.mi, com.youzu.bs.mi, com.appsomniacs.da2, com.miHoYo.Yuanshen, com.baidu.BaiduMap, com.google.android.googlequicksearchbox]
+2021-09-20 23:11:43.334 1960-5381/? I/ActivityTaskManager: START u0 {flg=0x24000000 cmp=com.stroworld.stroapps/com.onesignal.NotificationOpenedReceiver (has extras)} from uid 10558
+2021-09-20 23:11:43.335 1960-5381/? W/ActivityTaskManager: startActivity called from non-Activity context; forcing Intent.FLAG_ACTIVITY_NEW_TASK for: Intent { flg=0x24800000 cmp=com.stroworld.stroapps/com.onesignal.NotificationOpenedReceiver (has extras) }
+2021-09-20 23:11:43.334 1960-5381/? D/MiuiMultiWindowAdapter: MiuiMultiWindowAdapter::getFreeformBlackList::sSmallWindowBlackList = [com.miui.securitycenter, com.miui.weather2, com.miui.miservice, com.android.calendar, com.xiaomi.calendar, com.android.contacts, com.miui.mishare.connectivity, com.android.settings, com.android.printspooler, com.miui.backup, com.miui.huanji, com.miui.calculator, com.android.deskclock, com.android.thememanager, com.mfashiongallery.emag, com.miui.virtualsim, com.miui.smarttravel, com.mi.health, com.android.camera, com.lbe.security.miui, com.miui.cleanmaster, com.miui.newhome, com.miui.voiceassist, com.android.phone, com.miui.yellowpage, com.android.updater, com.miui.tsmclient, com.miui.securitycore, com.xiaomi.account, com.xiaomi.shop, com.xiaomi.smarthome, com.mipay.wallet, com.xiaomi.youpin, com.xiaomi.hm.health, com.miui.bugreport, com.xiaomi.mibrain.speech, com.xiaomi.mimoji, com.xiaomi.scanner, com.duokan.phone.remotecontroller, com.miui.hybrid, com.android.incallui, com.miui.video, com.miui.videoplayer, com.miui.player, com.miui.fm, com.miui.packageinstaller, com.mi.android.globallauncher, com.mi.android.globallauncher-poco, com.google.android.dialer, com.google.android.apps.magazines, com.miui.compass, com.miui.greenguard, com.kiteguard, com.google.android.apps.prodcasts, com.google.ar.lens, com.xiangkan.android, com.android.bankabc, com.sohu.inputmethod.sogou, com.tencent.mtt, com.shyz.toutiao, com.netease.mc.mi, com.outfit7.talkingtomgoldrun.mi, com.doudz.mi, com.wepie.snake.new.mi, cn.jj, com.standddz002.mi, com.miHoYo.bh3.mi, com.qqgame.hlddz, com.happyelements.AndroidAnimal, com.minitech.miniworld.TMobile.mi, com.mfp.jelly.xiaomi, com.lilithgames.afk.mi, com.tencent.peng, com.teenpatti.hd.gold, blockpuzzle.jewelgames.jewelslegend, com.playgendary.tanks, com.chillingo.robberybobfree.android.row, com.episodeinteractive.android.catalog, com.playrix.township, com.ansangha.drdriving, com.google.android.youtube, com.gbits.atm.mi, com.tencent.tetris, com.sukhavati.gotoplaying.bubble.BubbleShooter.mint, com.block.puzzle.game.hippo.mi, com.youzu.bs.mi, com.appsomniacs.da2, com.miHoYo.Yuanshen, com.baidu.BaiduMap, com.google.android.googlequicksearchbox]
+2021-09-20 23:11:43.338 24916-24916/? E/DeviceLevelUtils: isLowGpuDevice:1
+2021-09-20 23:11:43.339 587-587/? I/hwservicemanager: getTransport: Cannot find entry vendor.qti.hardware.iop@2.0::IIop/default in either framework or device manifest.
+2021-09-20 23:11:43.350 1960-5381/? D/CompatibilityInfo: mCompatibilityFlags - 0
+2021-09-20 23:11:43.350 1960-5381/? D/CompatibilityInfo: applicationDensity - 440
+2021-09-20 23:11:43.350 1960-5381/? D/CompatibilityInfo: applicationScale - 1.0
+2021-09-20 23:11:43.352 1960-5381/? D/ActivityTrigger: ActivityTrigger activityPauseTrigger 
+2021-09-20 23:11:43.355 24916-24994/? I/NotificationClickHandler: click notification, sending intent, key=0|com.stroworld.stroapps|762270803|null|10558
+2021-09-20 23:11:43.355 1960-5414/? W/UriGrantsManagerService: For security reasons, the system cannot issue a Uri permission grant to content://com.miui.networkassistant.fileprovider/res/tmp.png [user 0]; use startActivityAsCaller() instead
+2021-09-20 23:11:43.357 24916-24916/? E/DeviceLevelUtils: isLowGpuDevice:1
+2021-09-20 23:11:43.357 2469-2469/? W/ActivityThread: SCHED: com.miui.home/.launcher.Launcher [95, r=38ms, a=2ms, w=23545ms]
+2021-09-20 23:11:43.358 2469-2469/? D/Launcher.Lifecycle: onPause:UserHandle{0},abd0b8f,true
+2021-09-20 23:11:43.358 2469-2469/? D/Launcher_UnlockAnimationStateMachine: setState:PAUSE_WAIT
+2021-09-20 23:11:43.359 1960-1960/? D/zhoumingliang: isinvrtest==false
+2021-09-20 23:11:43.360 1960-5414/? I/ActivityTaskManager: The Process com.stroworld.stroapps Already Exists in BG. So sending its PID: 11180
+2021-09-20 23:11:43.362 11180-11180/? W/ActivityThread: handleWindowVisibility: no activity for token android.os.BinderProxy@7791f28
+2021-09-20 23:11:43.362 1960-5414/? D/CompatibilityInfo: mCompatibilityFlags - 0
+2021-09-20 23:11:43.362 1960-5414/? D/CompatibilityInfo: applicationDensity - 440
+2021-09-20 23:11:43.362 1960-5414/? D/CompatibilityInfo: applicationScale - 1.0
+2021-09-20 23:11:43.363 12136-5820/? I/ProcessMonitor: onForegroundInfoChanged: ForegroundInfo{mForegroundPackageName='com.stroworld.stroapps', mForegroundUid=10558, mForegroundPid=11180, mLastForegroundPackageName='com.miui.home', mLastForegroundUid=10090, mLastForegroundPid=2469, mMultiWindowForegroundPackageName='null', mMultiWindowForegroundUid=-1, mFlags=0}
+2021-09-20 23:11:43.363 12136-5820/? I/GameBoosterService: onForegroundInfoChanged: Cur=com.stroworld.stroapps	 last=com.miui.home
+2021-09-20 23:11:43.363 5102-16257/? D/PerfEngineController: ForegroundInfo{mForegroundPackageName='com.stroworld.stroapps', mForegroundUid=10558, mForegroundPid=11180, mLastForegroundPackageName='com.miui.home', mLastForegroundUid=10090, mLastForegroundPid=2469, mMultiWindowForegroundPackageName='null', mMultiWindowForegroundUid=-1, mFlags=0}
+2021-09-20 23:11:43.364 5117-5157/? I/GST: forePkg: com.stroworld.stroapps, preForePkg: com.miui.home
+2021-09-20 23:11:43.364 15945-6883/? D/AutoInstallService: onForegroundInfoChanged: com.stroworld.stroapps
+2021-09-20 23:11:43.364 12136-5820/? D/GameBoosterService: onGameStatusChange foreground:ForegroundInfo{mForegroundPackageName='com.stroworld.stroapps', mForegroundUid=10558, mForegroundPid=11180, mLastForegroundPackageName='com.miui.home', mLastForegroundUid=10090, mLastForegroundPid=2469, mMultiWindowForegroundPackageName='null', mMultiWindowForegroundUid=-1, mFlags=0}
+2021-09-20 23:11:43.364 12136-5820/? I/GameBoosterService: onForegroundInfoChanged: Exit
+2021-09-20 23:11:43.364 12136-5820/? I/VideoBoxUtils: isSupportVideoBox: false
+2021-09-20 23:11:43.364 12136-5820/? I/VideoToolBoxService: onForegroundInfoChanged: Exit Vtb
+2021-09-20 23:11:43.364 1960-1984/? D/PeriodicCleaner: com.stroworld.stroapps/com.onesignal.NotificationOpenedReceiver isn't fullscreen, skip.
+2021-09-20 23:11:43.366 24916-24916/? E/DeviceLevelUtils: isLowGpuDevice:1
+2021-09-20 23:11:43.366 1960-5399/? V/LocationPolicy: writePolicyLocked()
+2021-09-20 23:11:43.367 1960-5414/? I/Timeline: Timeline: App_transition_ready time:604700238
+2021-09-20 23:11:43.370 2469-2469/? D/Launcher_WallpaperUtils: changeStatusBarMode:false
+2021-09-20 23:11:43.371 2469-2624/? D/StatusBarController: handleMessage: flag 800000  disable false
+2021-09-20 23:11:43.372 24916-24916/? D/StatusBar: onNotificationRemoved key=0|com.stroworld.stroapps|762270803|null|10558 reason=1
+2021-09-20 23:11:43.374 1960-2096/? I/MiuiNetworkPolicy: updateUidState uid = 10558, uidState = 2
+2021-09-20 23:11:43.374 1960-2096/? I/MiuiNetworkPolicy: updateUidState uid = 10176, uidState = 2
+2021-09-20 23:11:43.374 24916-24916/? D/StatusBar: removeNotification StatusBarNotification(pkg=com.stroworld.stroapps user=UserHandle{0} id=762270803 tag=null key=0|com.stroworld.stroapps|762270803|null|10558: Notification(channel=fcm_fallback_notification_channel pri=0 contentView=null vibrate=null sound=null tick defaults=0x0 flags=0x10 color=0x00000000 vis=PUBLIC))
+        pkgName=com.stroworld.stroapps appUid=10558 sdk=29 imp=3 sysApp=F priApp=F hasShown=T float=F keyguard=F peek=F fullscreen=F
+        showMiuiAction=F enableFloat=T enableKeyguard=T floatTime=5000 messageCount=1 persistent=F customHeight=F customHideBorder=F
+2021-09-20 23:11:43.375 24916-24916/? D/StatusBar: update app badge num: com.stroworld.stroapps/,num=0,isAllowed=false,userId=0
+2021-09-20 23:11:43.376 1960-5607/? W/ActivityManager: Sending non-protected broadcast android.intent.action.APPLICATION_MESSAGE_UPDATE from system 24916:com.android.systemui/1000 pkg com.android.systemui. Callers=
+2021-09-20 23:11:43.376 2469-2469/? D/Launcher.Lifecycle: onWindowFocusChanged:false,UserHandle{0},abd0b8f,true
+2021-09-20 23:11:43.377 24916-24916/? E/DeviceLevelUtils: isLowGpuDevice:1
+2021-09-20 23:11:43.380 2469-2624/? I/Launcher.ApplicationsMessage: onReceive false
+2021-09-20 23:11:43.380 2469-2624/? I/Launcher.ApplicationsMessage: update com.stroworld.stroapps/ to null
+2021-09-20 23:11:43.392 24916-24916/? E/DeviceLevelUtils: isLowGpuDevice:1
+2021-09-20 23:11:43.398 2469-3310/? D/Launcher: get showing item successandroid.graphics.Bitmap@338daf6
+2021-09-20 23:11:43.399 1960-5414/? D/ActivityTrigger: ActivityTrigger activityPauseTrigger 
+2021-09-20 23:11:43.402 2469-2469/? D/Launcher.Lifecycle: onWindowFocusChanged:true,UserHandle{0},abd0b8f,false
+2021-09-20 23:11:43.402 2469-2469/? D/Launcher_UnlockAnimationStateMachine: onWindowFocus:PAUSE_WAIT
+2021-09-20 23:11:43.408 24916-24916/? E/DeviceLevelUtils: isLowGpuDevice:1
+2021-09-20 23:11:43.414 11180-11180/? D/ForceDarkHelper: updateByCheckExcludeList: pkg: com.stroworld.stroapps activity: com.onesignal.NotificationOpenedReceiver@9108f27
+2021-09-20 23:11:43.414 11180-11180/? I/chatty: uid=10558(com.stroworld.stroapps) identical 1 line
+2021-09-20 23:11:43.415 11180-11180/? D/ForceDarkHelper: updateByCheckExcludeList: pkg: com.stroworld.stroapps activity: com.onesignal.NotificationOpenedReceiver@9108f27
+2021-09-20 23:11:43.420 15945-6883/? D/AutoInstallService: onForegroundInfoChanged: com.miui.home
+2021-09-20 23:11:43.420 2469-2469/? D/Launcher.Lifecycle: onResume:UserHandle{0},abd0b8f,true
+2021-09-20 23:11:43.420 12136-5820/? I/ProcessMonitor: onForegroundInfoChanged: ForegroundInfo{mForegroundPackageName='com.miui.home', mForegroundUid=10090, mForegroundPid=2469, mLastForegroundPackageName='com.stroworld.stroapps', mLastForegroundUid=10558, mLastForegroundPid=11180, mMultiWindowForegroundPackageName='null', mMultiWindowForegroundUid=-1, mFlags=0}
+2021-09-20 23:11:43.420 12136-5820/? I/GameBoosterService: onForegroundInfoChanged: Cur=com.miui.home	 last=com.stroworld.stroapps
+2021-09-20 23:11:43.420 5102-16257/? D/PerfEngineController: ForegroundInfo{mForegroundPackageName='com.miui.home', mForegroundUid=10090, mForegroundPid=2469, mLastForegroundPackageName='com.stroworld.stroapps', mLastForegroundUid=10558, mLastForegroundPid=11180, mMultiWindowForegroundPackageName='null', mMultiWindowForegroundUid=-1, mFlags=0}
+2021-09-20 23:11:43.421 5117-5157/? I/GST: forePkg: com.miui.home, preForePkg: com.stroworld.stroapps
+2021-09-20 23:11:43.421 12136-5820/? D/GameBoosterService: onGameStatusChange foreground:ForegroundInfo{mForegroundPackageName='com.miui.home', mForegroundUid=10090, mForegroundPid=2469, mLastForegroundPackageName='com.stroworld.stroapps', mLastForegroundUid=10558, mLastForegroundPid=11180, mMultiWindowForegroundPackageName='null', mMultiWindowForegroundUid=-1, mFlags=0}
+2021-09-20 23:11:43.421 2469-2469/? D/Launcher_UnlockAnimationStateMachine: setState:IDLE
+2021-09-20 23:11:43.421 12136-5820/? I/GameBoosterService: onForegroundInfoChanged: Exit
+2021-09-20 23:11:43.421 12136-5820/? I/VideoBoxUtils: isSupportVideoBox: false
+2021-09-20 23:11:43.421 12136-5820/? I/VideoToolBoxService: onForegroundInfoChanged: Exit Vtb
+2021-09-20 23:11:43.422 2469-2624/? D/StatusBarController: handleMessage: flag 800000  disable false
+2021-09-20 23:11:43.423 1960-5414/? I/Timeline: Timeline: App_transition_ready time:604700293
+2021-09-20 23:11:43.423 1960-5414/? I/Timeline: Timeline: App_transition_stopped time:604700293
+2021-09-20 23:11:43.423 24916-24916/? D/EventBus: [24916, u0] send(AppTransitionFinishedEvent)
+2021-09-20 23:11:43.423 24916-24916/? D/EventBus: [24916, u0]  -> ForcedResizableInfoActivityController [0xd3a6d14, P1] onBusEvent(AppTransitionFinishedEvent)
+2021-09-20 23:11:43.423 24916-24916/? D/EventBus: [24916, u0] onBusEvent(AppTransitionFinishedEvent) duration: 22 microseconds, avg: 356
+2021-09-20 23:11:43.423 24916-24916/? D/EventBus: [24916, u0] send(AppTransitionFinishedEvent)
+2021-09-20 23:11:43.423 24916-24916/? D/EventBus: [24916, u0]  -> ForcedResizableInfoActivityController [0xd3a6d14, P1] onBusEvent(AppTransitionFinishedEvent)
+2021-09-20 23:11:43.423 24916-24916/? D/EventBus: [24916, u0] onBusEvent(AppTransitionFinishedEvent) duration: 6 microseconds, avg: 356
+2021-09-20 23:11:43.423 24916-24916/? D/EventBus: [24916, u0] send(AppTransitionFinishedEvent)
+2021-09-20 23:11:43.423 24916-24916/? D/EventBus: [24916, u0]  -> ForcedResizableInfoActivityController [0xd3a6d14, P1] onBusEvent(AppTransitionFinishedEvent)
+2021-09-20 23:11:43.423 24916-24916/? D/EventBus: [24916, u0] onBusEvent(AppTransitionFinishedEvent) duration: 9 microseconds, avg: 356
+2021-09-20 23:11:43.425 24916-24916/? E/DeviceLevelUtils: isLowGpuDevice:1
+2021-09-20 23:11:43.429 2469-2469/? D/Launcher_WallpaperUtils: changeStatusBarMode:false
+2021-09-20 23:11:43.430 587-587/? I/hwservicemanager: getTransport: Cannot find entry vendor.qti.hardware.iop@2.0::IIop/default in either framework or device manifest.
+2021-09-20 23:11:43.436 24916-24916/? D/EventBus: [24916, u0] send(AppTransitionFinishedEvent)
+2021-09-20 23:11:43.436 24916-24916/? D/EventBus: [24916, u0]  -> ForcedResizableInfoActivityController [0xd3a6d14, P1] onBusEvent(AppTransitionFinishedEvent)
+2021-09-20 23:11:43.436 24916-24916/? D/EventBus: [24916, u0] onBusEvent(AppTransitionFinishedEvent) duration: 16 microseconds, avg: 356
+2021-09-20 23:11:43.442 24916-24916/? E/DeviceLevelUtils: isLowGpuDevice:1
+2021-09-20 23:11:43.443 587-587/? I/hwservicemanager: getTransport: Cannot find entry vendor.qti.hardware.iop@2.0::IIop/default in either framework or device manifest.
+2021-09-20 23:11:43.443 1960-2096/? I/MiuiNetworkPolicy: updateUidState uid = 10558, uidState = 20
+2021-09-20 23:11:43.443 1960-2096/? I/MiuiNetworkPolicy: updateUidState uid = 10176, uidState = 5
+2021-09-20 23:11:43.444 1960-27321/? E/ANDR-PERF-JNI: UXEngine Trigger - Returning null
+2021-09-20 23:11:43.459 24916-24916/? E/DeviceLevelUtils: isLowGpuDevice:1
+2021-09-20 23:11:43.475 24916-24916/? I/chatty: uid=1000(system) com.android.systemui identical 1 line
+2021-09-20 23:11:43.492 24916-24916/? E/DeviceLevelUtils: isLowGpuDevice:1
+2021-09-20 23:11:43.500 24916-25018/? W/RenderInspector: DequeueBuffer time out on StatusBar, count=1, avg=18 ms, max=18 ms.
+2021-09-20 23:11:43.508 24916-24916/? E/DeviceLevelUtils: isLowGpuDevice:1
+2021-09-20 23:11:43.652 24916-24916/? I/chatty: uid=1000(system) com.android.systemui identical 12 lines
+2021-09-20 23:11:43.653 24916-24916/? E/DeviceLevelUtils: isLowGpuDevice:1
+2021-09-20 23:11:43.653 24916-24916/? D/StatusBar: disable<e i a s b h r c s > disable2<q i n g r >
+2021-09-20 23:11:43.654 24916-24916/? D/StatusBarClock:  isNormalMode= true clock visible=true
+2021-09-20 23:11:43.680 24916-25035/? D/BrightnessController: BrightnessObserver: stopObserving.
+2021-09-20 23:11:43.702 2469-2469/? D/Launcher: reset shortcutMenuLayer alpha and scale
+2021-09-20 23:11:43.702 2469-2469/? E/Launcher: changeViewByFsGestureState,  view=ShortcutMenuLayer,  alpha=1.0,  scale=1.0
+2021-09-20 23:11:43.859 1960-1977/? D/ActivityManager: thread tid=2469, priority is set to -10
+2021-09-20 23:11:43.859 1960-1977/? D/ActivityManager: thread tid=2675, priority is set to -10
+2021-09-20 23:11:44.088 1108-1108/? D/OemNetd: setLimit: disable, rate=0
+2021-09-20 23:11:45.569 11335-11335/? I/subsystem_ramdump: Usage:./system/bin/subsystem_ramdump [arg1] [arg2] [arg3]
+2021-09-20 23:11:45.565 11335-11335/? W/subsystem_ramdu: type=1400 audit(0.0:460857): avc: denied { read } for name="enable_ramdumps" dev="sysfs" ino=25551 scontext=u:r:vendor_subsystem_ramdump:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=0
+2021-09-20 23:11:45.569 11335-11335/? I/subsystem_ramdump: [arg1]: (1/2) Ramdump location: 1: eMMC: /data/vendor/ramdump or 2: SD card: /sdcard/ramdump
+2021-09-20 23:11:45.569 11335-11335/? I/subsystem_ramdump: [arg2]: (1/0) 1: Enable RPM log / 0: Disable RPM log
+2021-09-20 23:11:45.569 11335-11335/? I/subsystem_ramdump: [arg3]: (1/0) 1: Enable qdss ramdump / 0: Disable qdss ramdump
+2021-09-20 23:11:45.569 11335-11335/? I/subsystem_ramdump:  Using default ramdump location 1: eMMC: /data/vendor/ramdump
+2021-09-20 23:11:45.569 11335-11335/? I/subsystem_ramdump:  Using default 0: Disable RPM log
+2021-09-20 23:11:45.569 11335-11335/? I/subsystem_ramdump:  Using default 0: Disable qdss ramdump
+2021-09-20 23:11:45.569 11335-11335/? E/subsystem_ramdump: Unable to open /sys/module/subsystem_restart/parameters/enable_ramdumps
+2021-09-20 23:11:46.010 587-587/? I/hwservicemanager: getTransport: Cannot find entry vendor.qti.hardware.servicetracker@1.0::IServicetracker/default in either framework or device manifest.
+2021-09-20 23:11:46.041 587-587/? I/hwservicemanager: getTransport: Cannot find entry vendor.qti.hardware.servicetracker@1.0::IServicetracker/default in either framework or device manifest.
+2021-09-20 23:11:46.646 2364-3390/? D/QCNEJ/WlanStaInfoRelay: Received action: android.net.wifi.RSSI_CHANGED
+2021-09-20 23:11:46.648 2364-3390/? I/QCNEJ/NativeHalConnector: -> SND notifyWlanStaStatusChanged([WlanStaInfo]: wifiSwitchState = 1 rssi = -56 ssid = MY INTERNET bssid = 24:58:6e:c9:1a:94 dnsInfo = fe80::1;192.168.1.1;0.0.0.0;0.0.0.0; freqBand = _2GHz countryCode = id[RatInfo]: networkType = 1 subType = 101 networkState = CONNECTED netHdl = 462967197709 ipAddrV4 = 192.168.1.4 ipAddrV6 =  ifNameV4 = wlan0 ifNameV6 =  slotIdx = 0 isAndroidValidated = true) timeStamp = 2021-09-20 23:11:46.646
+2021-09-20 23:11:46.653 24916-24916/? D/SignalClusterView: updateMobileTypeImage  0
+2021-09-20 23:11:46.668 24916-24916/? I/chatty: uid=1000(system) com.android.systemui identical 5 lines
+2021-09-20 23:11:46.671 24916-24916/? D/SignalClusterView: updateMobileTypeImage  0
+2021-09-20 23:11:48.193 587-587/? I/hwservicemanager: getTransport: Cannot find entry vendor.qti.hardware.servicetracker@1.0::IServicetracker/default in either framework or device manifest.
+2021-09-20 23:11:48.215 12136-12136/? I/BatteryInfoReceiver: ACTION_BATTERY_CHANGED
+2021-09-20 23:11:48.215 5102-5730/? D/PowerCheckerService: onBatteryChanged, mBatteryLevel = 99, status = 2, level = 99, plug = 2, scale = 100
+2021-09-20 23:11:48.218 24916-24916/? D/KeyguardUpdateMonitor: received broadcast android.intent.action.BATTERY_CHANGED
+2021-09-20 23:11:48.971 587-587/? I/hwservicemanager: getTransport: Cannot find entry vendor.qti.hardware.servicetracker@1.0::IServicetracker/default in either framework or device manifest.
+2021-09-20 23:11:48.975 587-587/? I/hwservicemanager: getTransport: Cannot find entry vendor.qti.hardware.servicetracker@1.0::IServicetracker/default in either framework or device manifest.
+2021-09-20 23:11:48.983 1960-2096/? I/MiuiNetworkPolicy: updateUidState uid = 10176, uidState = 6
+2021-09-20 23:11:48.985 27597-27597/? D/BoundBrokerSvc: onUnbind: Intent { act=com.google.android.gms.measurement.START pkg=com.google.android.gms }
+2021-09-20 23:11:49.092 1108-1108/? D/OemNetd: setLimit: enable, rate=0
+2021-09-20 23:11:49.740 2364-3390/? D/QCNEJ/WlanStaInfoRelay: Received action: android.net.wifi.RSSI_CHANGED
+2021-09-20 23:11:49.740 2364-3390/? I/QCNEJ/NativeHalConnector: -> SND notifyWlanStaStatusChanged([WlanStaInfo]: wifiSwitchState = 1 rssi = -55 ssid = MY INTERNET bssid = 24:58:6e:c9:1a:94 dnsInfo = fe80::1;192.168.1.1;0.0.0.0;0.0.0.0; freqBand = _2GHz countryCode = id[RatInfo]: networkType = 1 subType = 101 networkState = CONNECTED netHdl = 462967197709 ipAddrV4 = 192.168.1.4 ipAddrV6 =  ifNameV4 = wlan0 ifNameV6 =  slotIdx = 0 isAndroidValidated = true) timeStamp = 2021-09-20 23:11:49.74
+2021-09-20 23:11:49.746 24916-24916/? D/SignalClusterView: updateMobileTypeImage  0
+2021-09-20 23:11:49.798 24916-24916/? I/chatty: uid=1000(system) com.android.systemui identical 12 lines
+2021-09-20 23:11:49.800 24916-24916/? D/SignalClusterView: updateMobileTypeImage  0
+2021-09-20 23:11:50.123 587-587/? I/hwservicemanager: getTransport: Cannot find entry vendor.qti.hardware.servicetracker@1.0::IServicetracker/default in either framework or device manifest.
+2021-09-20 23:11:50.614 11337-11337/? I/subsystem_ramdump: Usage:./system/bin/subsystem_ramdump [arg1] [arg2] [arg3]
+2021-09-20 23:11:50.614 11337-11337/? I/subsystem_ramdump: [arg1]: (1/2) Ramdump location: 1: eMMC: /data/vendor/ramdump or 2: SD card: /sdcard/ramdump
+2021-09-20 23:11:50.614 11337-11337/? I/subsystem_ramdump: [arg2]: (1/0) 1: Enable RPM log / 0: Disable RPM log
+2021-09-20 23:11:50.614 11337-11337/? I/subsystem_ramdump: [arg3]: (1/0) 1: Enable qdss ramdump / 0: Disable qdss ramdump
+2021-09-20 23:11:50.614 11337-11337/? I/subsystem_ramdump:  Using default ramdump location 1: eMMC: /data/vendor/ramdump
+2021-09-20 23:11:50.614 11337-11337/? I/subsystem_ramdump:  Using default 0: Disable RPM log
+2021-09-20 23:11:50.614 11337-11337/? I/subsystem_ramdump:  Using default 0: Disable qdss ramdump
+2021-09-20 23:11:50.615 11337-11337/? E/subsystem_ramdump: Unable to open /sys/module/subsystem_restart/parameters/enable_ramdumps
+2021-09-20 23:11:50.605 11337-11337/? W/subsystem_ramdu: type=1400 audit(0.0:460858): avc: denied { read } for name="enable_ramdumps" dev="sysfs" ino=25551 scontext=u:r:vendor_subsystem_ramdump:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=0
+2021-09-20 23:11:52.863 24916-24916/? D/SignalClusterView: updateMobileTypeImage  0
+2021-09-20 23:11:52.866 24916-24916/? I/chatty: uid=1000(system) com.android.systemui identical 2 lines
+2021-09-20 23:11:52.866 24916-24916/? D/SignalClusterView: updateMobileTypeImage  0
+2021-09-20 23:11:52.875 587-587/? I/hwservicemanager: getTransport: Cannot find entry vendor.qti.hardware.servicetracker@1.0::IServicetracker/default in either framework or device manifest.
+2021-09-20 23:11:52.881 24916-24916/? D/SignalClusterView: updateMobileTypeImage  0
+2021-09-20 23:11:52.882 24916-24916/? I/chatty: uid=1000(system) com.android.systemui identical 1 line
+2021-09-20 23:11:52.883 24916-24916/? D/SignalClusterView: updateMobileTypeImage  0
+2021-09-20 23:11:54.103 587-587/? I/hwservicemanager: getTransport: Cannot find entry vendor.qti.hardware.servicetracker@1.0::IServicetracker/default in either framework or device manifest.
+2021-09-20 23:11:54.170 587-587/? I/chatty: uid=1000(system) hwservicemanage identical 8 lines
+2021-09-20 23:11:54.172 587-587/? I/hwservicemanager: getTransport: Cannot find entry vendor.qti.hardware.servicetracker@1.0::IServicetracker/default in either framework or device manifest.
+2021-09-20 23:11:54.172 27597-27597/? D/BoundBrokerSvc: onUnbind: Intent { act=com.google.android.gms.feedback.internal.IFeedbackService cmp=com.google.android.gms/.chimera.GmsBoundBrokerService }
+2021-09-20 23:11:54.176 587-587/? I/hwservicemanager: getTransport: Cannot find entry vendor.qti.hardware.servicetracker@1.0::IServicetracker/default in either framework or device manifest.
+2021-09-20 23:11:54.859 587-587/? I/chatty: uid=1000(system) hwservicemanage identical 5 lines
+2021-09-20 23:11:54.864 587-587/? I/hwservicemanager: getTransport: Cannot find entry vendor.qti.hardware.servicetracker@1.0::IServicetracker/default in either framework or device manifest.
+2021-09-20 23:11:54.864 27755-27755/? D/BoundBrokerSvc: onUnbind: Intent { act=com.google.android.gms.scheduler.ACTION_PROXY_SCHEDULE cmp=com.google.android.gms/.chimera.PersistentInternalBoundBrokerService }
+2021-09-20 23:11:55.618 11339-11339/? I/subsystem_ramdump: Usage:./system/bin/subsystem_ramdump [arg1] [arg2] [arg3]
+2021-09-20 23:11:55.618 11339-11339/? I/subsystem_ramdump: [arg1]: (1/2) Ramdump location: 1: eMMC: /data/vendor/ramdump or 2: SD card: /sdcard/ramdump
+2021-09-20 23:11:55.618 11339-11339/? I/subsystem_ramdump: [arg2]: (1/0) 1: Enable RPM log / 0: Disable RPM log
+2021-09-20 23:11:55.618 11339-11339/? I/subsystem_ramdump: [arg3]: (1/0) 1: Enable qdss ramdump / 0: Disable qdss ramdump
+2021-09-20 23:11:55.618 11339-11339/? I/subsystem_ramdump:  Using default ramdump location 1: eMMC: /data/vendor/ramdump
+2021-09-20 23:11:55.618 11339-11339/? I/subsystem_ramdump:  Using default 0: Disable RPM log
+2021-09-20 23:11:55.618 11339-11339/? I/subsystem_ramdump:  Using default 0: Disable qdss ramdump
+2021-09-20 23:11:55.605 11339-11339/? W/subsystem_ramdu: type=1400 audit(0.0:460859): avc: denied { read } for name="enable_ramdumps" dev="sysfs" ino=25551 scontext=u:r:vendor_subsystem_ramdump:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=0
+2021-09-20 23:11:55.619 11339-11339/? E/subsystem_ramdump: Unable to open /sys/module/subsystem_restart/parameters/enable_ramdumps
+2021-09-20 23:11:55.978 24916-24916/? D/SignalClusterView: updateMobileTypeImage  0
